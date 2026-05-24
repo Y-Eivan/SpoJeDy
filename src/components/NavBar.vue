@@ -26,17 +26,45 @@
 
       <div class="flex-1"></div>
 
-      <div class="hidden md:flex items-center bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-full px-4 py-2 w-72">
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <div class="relative hidden md:flex items-center bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-full px-4 py-2 w-72" ref="searchWrapper">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z" />
         </svg>
         <input
           v-model="searchQuery"
-          @keyup.enter="onSearch"
+          @input="onInput"
+          @focus="onFocus"
+          @keydown.escape="closeDropdown"
+          @keydown.enter="goToFirst"
           type="text"
-          placeholder="Search..."
+          placeholder="Search songs..."
           class="ml-2 bg-transparent outline-none text-sm flex-1 placeholder-gray-400"
         />
+
+        <!-- Dropdown results -->
+        <div
+          v-if="showDropdown && searchQuery.trim()"
+          class="absolute top-full left-0 mt-2 w-full bg-white dark:bg-gray-800 rounded-2xl shadow-xl border border-gray-200 dark:border-gray-700 z-50 overflow-hidden"
+        >
+          <template v-if="filteredResults.length">
+            <div
+              v-for="result in filteredResults"
+              :key="result.id"
+              @click="goTo(result)"
+              class="flex items-center gap-3 px-4 py-3 hover:bg-gray-50 dark:hover:bg-gray-700 cursor-pointer transition-colors"
+            >
+              <img :src="result.cover" :alt="result.title" class="w-10 h-10 rounded-lg object-cover flex-shrink-0" />
+              <div class="flex-1 min-w-0">
+                <div class="text-sm font-medium text-gray-900 dark:text-white truncate">{{ result.title }}</div>
+                <div class="text-xs text-gray-500 dark:text-gray-400 truncate">{{ result.artist }}</div>
+              </div>
+              <span class="text-xs text-gray-400 flex-shrink-0 ml-2">{{ result.duration }}</span>
+            </div>
+          </template>
+          <div v-else class="px-4 py-4 text-sm text-gray-400 text-center">
+            No results for "{{ searchQuery }}"
+          </div>
+        </div>
       </div>
 
       <router-link to="/profile" class="flex items-center gap-3">
@@ -58,6 +86,8 @@
 </template>
 
 <script>
+import { songs } from '../data/media.js'
+
 export default {
   name: 'NavBar',
   props: {
@@ -66,19 +96,52 @@ export default {
   },
   data() {
     return {
-      searchQuery: ''
+      searchQuery: '',
+      showDropdown: false
     }
   },
   computed: {
     initials() {
       if (!this.username) return 'U'
       return this.username.slice(0, 2).toUpperCase()
+    },
+    filteredResults() {
+      const q = this.searchQuery.trim().toLowerCase()
+      if (!q) return []
+      return songs.filter(s =>
+        s.title.toLowerCase().includes(q) || s.artist.toLowerCase().includes(q)
+      )
     }
   },
   methods: {
-    onSearch() {
-      this.$emit('search', this.searchQuery)
+    onInput() {
+      this.showDropdown = true
+    },
+    onFocus() {
+      if (this.searchQuery.trim()) this.showDropdown = true
+    },
+    closeDropdown() {
+      this.showDropdown = false
+    },
+    goTo(song) {
+      this.showDropdown = false
+      this.searchQuery = ''
+      this.$router.push({ name: 'song-detail', params: { id: song.id } })
+    },
+    goToFirst() {
+      if (this.filteredResults.length) this.goTo(this.filteredResults[0])
+    },
+    handleClickOutside(e) {
+      if (this.$refs.searchWrapper && !this.$refs.searchWrapper.contains(e.target)) {
+        this.showDropdown = false
+      }
     }
+  },
+  mounted() {
+    document.addEventListener('mousedown', this.handleClickOutside)
+  },
+  unmounted() {
+    document.removeEventListener('mousedown', this.handleClickOutside)
   }
 }
 </script>
