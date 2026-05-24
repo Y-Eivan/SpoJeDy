@@ -37,9 +37,17 @@
       @seek="seekTo"
     />
 
-    <div class="yt-audio-host" aria-hidden="true">
-      <div ref="ytMount"></div>
-    </div>
+    <!-- Global HTML5 audio element. Streamed from ImageKit CDN. -->
+    <audio
+      ref="audio"
+      :src="currentSong ? currentSong.audioUrl : ''"
+      preload="metadata"
+      @timeupdate="onTimeUpdate"
+      @loadedmetadata="onLoadedMetadata"
+      @play="isPlaying = true"
+      @pause="isPlaying = false"
+      @ended="nextSong"
+    ></audio>
   </div>
 </template>
 
@@ -47,7 +55,7 @@
 import NavBar from './components/NavBar.vue'
 import MiniPlayer from './components/MiniPlayer.vue'
 import { songs } from './data/media'
-import { loadYouTubeAPI } from './utils/youtube'
+import { loadBlob } from './utils/blobStore'
 
 export default {
   name: 'App',
@@ -61,120 +69,85 @@ export default {
       volume: 0.7,
       progress: 0,
       currentTime: 0,
-      duration: 0,
-      player: null,
-      playerReady: false,
-      pendingSong: null,
-      pollTimer: null
+      duration: 0
     }
   },
   created() {
     this.loadProfile()
+    // Apply saved theme before first paint so it persists across reloads.
+    if (localStorage.getItem('spojedy-theme') === 'dark') {
+      document.documentElement.classList.add('dark')
+    }
     if (!this.currentSong) {
       this.currentSong = songs[0]
     }
   },
-  async mounted() {
+  mounted() {
     window.addEventListener('spojedy-profile-updated', this.loadProfile)
-    try {
-      const YT = await loadYouTubeAPI()
-      const mountDiv = document.createElement('div')
-      this.$refs.ytMount.appendChild(mountDiv)
-      this.player = new YT.Player(mountDiv, {
-        height: '1',
-        width: '1',
-        videoId: this.currentSong ? this.currentSong.youtubeId : '',
-        playerVars: {
-          autoplay: 0,
-          controls: 0,
-          disablekb: 1,
-          fs: 0,
-          modestbranding: 1,
-          playsinline: 1
-        },
-        events: {
-          onReady: this.onPlayerReady,
-          onStateChange: this.onPlayerStateChange
-        }
-      })
-    } catch (e) {
-      console.error('Failed to load YouTube API', e)
+    if (this.$refs.audio) {
+      this.$refs.audio.volume = this.volume
     }
   },
   beforeUnmount() {
     window.removeEventListener('spojedy-profile-updated', this.loadProfile)
-    if (this.pollTimer) clearInterval(this.pollTimer)
-    if (this.player && this.player.destroy) this.player.destroy()
   },
   methods: {
-    loadProfile() {
+    async loadProfile() {
       const data = localStorage.getItem('spojedy-profile')
       if (data) {
         try {
           const parsed = JSON.parse(data)
           this.username = parsed.username || 'user123'
-          this.profileImage = parsed.profileImage || ''
         } catch (e) {
           // noop
         }
       }
-    },
-    onPlayerReady() {
-      this.playerReady = true
-      if (this.player.setVolume) this.player.setVolume(Math.round(this.volume * 100))
-      if (this.pendingSong) {
-        this.loadAndPlay(this.pendingSong)
-        this.pendingSong = null
-      }
-      this.pollTimer = setInterval(this.pollProgress, 250)
-    },
-    onPlayerStateChange(e) {
-      const YT = window.YT
-      if (!YT) return
-      if (e.data === YT.PlayerState.PLAYING) {
-        this.isPlaying = true
-      } else if (e.data === YT.PlayerState.PAUSED) {
-        this.isPlaying = false
-      } else if (e.data === YT.PlayerState.ENDED) {
-        this.isPlaying = false
-        this.nextSong()
+      // Avatar lives in IndexedDB as a Blob; expose it as an object URL.
+      try {
+        const blob = await loadBlob('avatar')
+        if (this.profileImage && this.profileImage.startsWith('blob:')) {
+          URL.revokeObjectURL(this.profileImage)
+        }
+        this.profileImage = blob ? URL.createObjectURL(blob) : ''
+      } catch (e) {
+        console.warn('Failed to load avatar from IndexedDB', e)
       }
     },
-    pollProgress() {
-      if (!this.player || !this.player.getDuration) return
-      const dur = this.player.getDuration() || 0
-      const cur = this.player.getCurrentTime() || 0
-      this.duration = dur
-      this.currentTime = cur
-      if (dur > 0) this.progress = (cur / dur) * 100
+    onTimeUpdate() {
+      const a = this.$refs.audio
+      if (!a) return
+      this.currentTime = a.currentTime || 0
+      if (a.duration > 0) this.progress = (a.currentTime / a.duration) * 100
     },
-    loadAndPlay(song) {
-      if (!this.player || !this.player.loadVideoById || !song.youtubeId) return
-      this.player.loadVideoById(song.youtubeId)
+    onLoadedMetadata() {
+      const a = this.$refs.audio
+      if (a) this.duration = a.duration || 0
     },
     playSong(song) {
       this.currentSong = song
-      this.isPlaying = true
-      if (!this.playerReady) {
-        this.pendingSong = song
-        return
-      }
-      this.loadAndPlay(song)
+      // Vue updates <audio :src> on next tick; reload then play.
+      this.$nextTick(() => {
+        const a = this.$refs.audio
+        if (!a) return
+        a.load()
+        a.volume = this.volume
+        a.play().catch(() => {
+          // Browsers block autoplay without user gesture; user can press play manually.
+        })
+      })
     },
     togglePlay() {
-      if (!this.player || !this.playerReady) return
-      const YT = window.YT
-      const state = this.player.getPlayerState()
-      if (state === YT.PlayerState.PLAYING) {
-        this.player.pauseVideo()
+      const a = this.$refs.audio
+      if (!a) return
+      if (a.paused) {
+        a.play().catch(() => {})
       } else {
-        this.player.playVideo()
+        a.pause()
       }
     },
     pauseAudio() {
-      if (this.player && this.playerReady && this.player.pauseVideo) {
-        this.player.pauseVideo()
-      }
+      const a = this.$refs.audio
+      if (a && !a.paused) a.pause()
     },
     nextSong() {
       if (!this.currentSong) return
@@ -190,30 +163,15 @@ export default {
     },
     setVolume(v) {
       this.volume = v
-      if (this.player && this.playerReady && this.player.setVolume) {
-        this.player.setVolume(Math.round(v * 100))
-      }
+      if (this.$refs.audio) this.$refs.audio.volume = v
     },
     seekTo(ratio) {
-      if (!this.player || !this.playerReady || !this.player.getDuration) return
-      const dur = this.player.getDuration()
-      if (dur > 0) {
-        this.player.seekTo(ratio * dur, true)
+      const a = this.$refs.audio
+      if (a && a.duration > 0) {
+        a.currentTime = ratio * a.duration
         this.progress = ratio * 100
       }
     }
   }
 }
 </script>
-
-<style scoped>
-.yt-audio-host {
-  position: fixed;
-  left: -9999px;
-  top: -9999px;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  pointer-events: none;
-}
-</style>

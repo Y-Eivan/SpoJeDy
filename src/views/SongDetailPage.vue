@@ -11,7 +11,10 @@
       <h1 class="text-2xl font-bold mb-4">Song Detail</h1>
 
       <div class="flex flex-col lg:flex-row gap-6">
-        <div class="w-full lg:w-96 aspect-square rounded-2xl overflow-hidden flex-shrink-0 shadow-md">
+        <div
+          @click="openFullscreen"
+          class="w-full lg:w-96 aspect-square rounded-2xl overflow-hidden flex-shrink-0 shadow-md cursor-zoom-in group relative"
+        >
           <img
             :src="song.cover"
             :alt="song.title"
@@ -19,6 +22,11 @@
             :class="coverLoaded ? 'img-loaded' : 'img-loading'"
             @load="coverLoaded = true"
           />
+          <div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors flex items-center justify-center opacity-0 group-hover:opacity-100">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 8v6M8 11h6M17 11a6 6 0 11-12 0 6 6 0 0112 0z" />
+            </svg>
+          </div>
         </div>
 
         <div class="flex-1">
@@ -80,7 +88,7 @@
             </div>
 
             <p class="text-xs text-gray-500 dark:text-gray-400 text-center mt-4">
-              Audio streamed from YouTube.
+              Audio streamed from ImageKit CDN.
             </p>
           </div>
 
@@ -101,6 +109,64 @@
     <div v-else class="text-center py-20">
       <p class="text-gray-500">Song not found.</p>
     </div>
+
+    <!-- Fullscreen cover overlay -->
+    <div
+      v-if="fullscreen && song"
+      class="fixed inset-0 z-[100] bg-black/95 flex items-center justify-center overflow-hidden select-none"
+      @wheel.prevent="onWheel"
+      @mousedown="onPanStart"
+      @mousemove="onPanMove"
+      @mouseup="onPanEnd"
+      @mouseleave="onPanEnd"
+    >
+      <img
+        :src="song.cover"
+        :alt="song.title"
+        class="max-w-[90vw] max-h-[90vh] object-contain transition-transform duration-100"
+        :style="{
+          transform: `translate(${panX}px, ${panY}px) scale(${zoom})`,
+          cursor: zoom > 1 ? (panning ? 'grabbing' : 'grab') : 'default'
+        }"
+        draggable="false"
+      />
+
+      <!-- Top-right controls -->
+      <div class="absolute top-4 right-4 flex items-center gap-2">
+        <button
+          @click.stop="zoomOut"
+          class="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition"
+          aria-label="Zoom out"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4" />
+          </svg>
+        </button>
+        <button
+          @click.stop="zoomIn"
+          class="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition"
+          aria-label="Zoom in"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+          </svg>
+        </button>
+        <button
+          @click.stop="closeFullscreen"
+          class="w-10 h-10 rounded-full bg-white/10 hover:bg-red-500/80 text-white flex items-center justify-center transition"
+          aria-label="Exit fullscreen"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Zoom indicator -->
+      <div class="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white/10 text-white text-xs px-3 py-1 rounded-full">
+        {{ Math.round(zoom * 100) }}% · Scroll to zoom · Drag to pan · Esc to exit
+      </div>
+    </div>
   </div>
 </template>
 
@@ -120,7 +186,14 @@ export default {
   emits: ['play-song', 'toggle-play', 'next', 'prev', 'set-volume', 'seek'],
   data() {
     return {
-      coverLoaded: false
+      coverLoaded: false,
+      fullscreen: false,
+      zoom: 1,
+      panX: 0,
+      panY: 0,
+      panning: false,
+      panStartX: 0,
+      panStartY: 0
     }
   },
   computed: {
@@ -148,9 +221,6 @@ export default {
   mounted() {
     window.addEventListener('keydown', this.onKeyDown)
   },
-  beforeUnmount() {
-    window.removeEventListener('keydown', this.onKeyDown)
-  },
   methods: {
     formatTime(sec) {
       if (!sec || isNaN(sec)) return '0:00'
@@ -177,11 +247,60 @@ export default {
       this.$router.push({ name: 'mv-detail', params: { id: this.song.musicVideoId } })
     },
     onKeyDown(e) {
+      if (this.fullscreen) {
+        if (e.key === 'Escape') this.closeFullscreen()
+        else if (e.key === '+' || e.key === '=') this.zoomIn()
+        else if (e.key === '-' || e.key === '_') this.zoomOut()
+        return
+      }
       if (e.key === ' ' && e.target === document.body) {
         e.preventDefault()
         this.togglePlay()
       }
+    },
+    openFullscreen() {
+      this.fullscreen = true
+      this.zoom = 1
+      this.panX = 0
+      this.panY = 0
+      document.body.style.overflow = 'hidden'
+    },
+    closeFullscreen() {
+      this.fullscreen = false
+      document.body.style.overflow = ''
+    },
+    zoomIn() {
+      this.zoom = Math.min(5, this.zoom + 0.25)
+    },
+    zoomOut() {
+      const next = Math.max(0.5, this.zoom - 0.25)
+      this.zoom = next
+      if (next <= 1) { this.panX = 0; this.panY = 0 }
+    },
+    onWheel(e) {
+      const delta = e.deltaY < 0 ? 0.15 : -0.15
+      const next = Math.min(5, Math.max(0.5, this.zoom + delta))
+      this.zoom = next
+      if (next <= 1) { this.panX = 0; this.panY = 0 }
+    },
+    onPanStart(e) {
+      if (this.zoom <= 1) return
+      this.panning = true
+      this.panStartX = e.clientX - this.panX
+      this.panStartY = e.clientY - this.panY
+    },
+    onPanMove(e) {
+      if (!this.panning) return
+      this.panX = e.clientX - this.panStartX
+      this.panY = e.clientY - this.panStartY
+    },
+    onPanEnd() {
+      this.panning = false
     }
+  },
+  beforeUnmount() {
+    window.removeEventListener('keydown', this.onKeyDown)
+    document.body.style.overflow = ''
   }
 }
 </script>

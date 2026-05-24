@@ -77,6 +77,8 @@
 </template>
 
 <script>
+import { saveBlob, loadBlob } from '../utils/blobStore'
+
 export default {
   name: 'ProfilePage',
   data() {
@@ -90,30 +92,41 @@ export default {
       savedMessage: ''
     }
   },
-  mounted() {
-    this.loadProfile()
-    this.theme = document.documentElement.classList.contains('dark') ? 'dark' : 'light'
+  async mounted() {
+    await this.loadProfile()
+    this.theme = localStorage.getItem('spojedy-theme') || 'light'
+  },
+  beforeUnmount() {
+    // Free the object URL we created so it doesn't leak memory.
+    if (this.profileImage && this.profileImage.startsWith('blob:')) {
+      URL.revokeObjectURL(this.profileImage)
+    }
   },
   methods: {
-    loadProfile() {
+    async loadProfile() {
+      // Username is a plain string — fine for localStorage.
       const raw = localStorage.getItem('spojedy-profile')
       if (raw) {
         try {
           const data = JSON.parse(raw)
           this.username = data.username || 'user123'
-          this.profileImage = data.profileImage || ''
         } catch (e) {
           // noop
         }
       }
-      this.theme = localStorage.getItem('spojedy-theme') || 'light'
+      // Profile image is a Blob — load from IndexedDB and expose as object URL.
+      try {
+        const blob = await loadBlob('avatar')
+        if (blob) {
+          this.profileImage = URL.createObjectURL(blob)
+        }
+      } catch (e) {
+        console.warn('Failed to load profile image from IndexedDB', e)
+      }
     },
     saveProfile() {
-      const data = {
-        username: this.username,
-        profileImage: this.profileImage
-      }
-      localStorage.setItem('spojedy-profile', JSON.stringify(data))
+      // Only the username goes to localStorage; the Blob lives in IndexedDB.
+      localStorage.setItem('spojedy-profile', JSON.stringify({ username: this.username }))
       window.dispatchEvent(new Event('spojedy-profile-updated'))
       this.savedMessage = 'Profile saved!'
       setTimeout(() => { this.savedMessage = '' }, 2000)
@@ -125,6 +138,7 @@ export default {
       this.uploadProgress = 0
       this.imgReady = false
 
+      // First half of progress: reading the source file.
       const reader = new FileReader()
       reader.onprogress = (ev) => {
         if (ev.lengthComputable) {
@@ -137,6 +151,7 @@ export default {
       reader.readAsDataURL(file)
     },
     compressImage(dataUrl) {
+      // Resize via canvas, then export as a JPEG Blob under 1 MB.
       const img = new Image()
       img.onload = () => {
         const MAX = 512
@@ -157,6 +172,7 @@ export default {
         const ctx = canvas.getContext('2d')
         ctx.drawImage(img, 0, 0, width, height)
 
+        // First pass at 0.85 quality; if still over 1 MB, re-encode at 0.6.
         canvas.toBlob((blob) => {
           if (!blob) {
             this.uploading = false
@@ -173,28 +189,31 @@ export default {
       }
       img.src = dataUrl
     },
-    applyBlob(blob) {
-      const reader = new FileReader()
-      reader.onprogress = (ev) => {
-        if (ev.lengthComputable) {
-          this.uploadProgress = 50 + Math.round((ev.loaded / ev.total) * 50)
-        }
+    async applyBlob(blob) {
+      if (!blob) {
+        this.uploading = false
+        return
       }
-      reader.onload = (ev) => {
-        this.profileImage = ev.target.result
-        this.uploadProgress = 100
-        const data = {
-          username: this.username,
-          profileImage: this.profileImage
-        }
-        localStorage.setItem('spojedy-profile', JSON.stringify(data))
-        window.dispatchEvent(new Event('spojedy-profile-updated'))
-        setTimeout(() => {
-          this.uploading = false
-          this.uploadProgress = 0
-        }, 500)
+      // Persist the actual Blob to IndexedDB — this is the "stored as blob" part.
+      try {
+        await saveBlob('avatar', blob)
+      } catch (e) {
+        console.error('Failed to save avatar blob', e)
       }
-      reader.readAsDataURL(blob)
+      // Release the previous object URL before swapping in a new one.
+      if (this.profileImage && this.profileImage.startsWith('blob:')) {
+        URL.revokeObjectURL(this.profileImage)
+      }
+      // Second half of progress: applying the result.
+      this.uploadProgress = 100
+      this.profileImage = URL.createObjectURL(blob)
+      // Persist username alongside; tell other components to reload the avatar.
+      localStorage.setItem('spojedy-profile', JSON.stringify({ username: this.username }))
+      window.dispatchEvent(new Event('spojedy-profile-updated'))
+      setTimeout(() => {
+        this.uploading = false
+        this.uploadProgress = 0
+      }, 500)
     },
     setTheme(t) {
       this.theme = t

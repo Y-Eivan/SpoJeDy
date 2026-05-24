@@ -1,0 +1,307 @@
+
+Project Case
+COSC6095001
+Multimedia System and Programming Foundation
+Computer Science
+E262-COSC6095-JD01-00
+Valid on Even Semester Year 2025/2026
+	Revision 00
+Kelompok tidak diperkenankan untuk:
+Members of the group are prohibited from:
+Me
+lihat
+sebagian
+atau
+seluruh
+jawaban
+kelompok
+ lain,
+Seeing a part or the whole answer from other groups,
+Menyadur
+sebagian
+atau
+seluruh
+jawaban
+dari
+buku
+, 
+catatan
+, video, dan 
+jenis
+referensi
+lainnya
+,
+Retell a part or the whole answer from books, notes, videos, and other references,
+Menyadur
+ sebagian 
+atau
+ seluruh 
+jawaban
+dari
+ internet,
+Retell a part or the whole answer from the internet,
+Mengumpulkan
+jawaban
+ yang 
+tidak
+sesuai
+dengan
+tema
+soal
+,
+Submitting an answer with a different theme from the given case,
+Melakukan
+tindakan
+ yang menyebabkan 
+jawaban
+ dicontek oleh orang lain 
+atau
+ kelompok lain, 
+baik
+disengaja
+maupun
+tidak
+disengaja
+,
+Doing action that could result the answer being copied by someone or other groups, intentionally or unintentionally,
+Melakukan tindakan kecurangan lainnya.
+Committing other dishonest actions.
+Jika kelompok terbukti melakukan 
+tindakan
+ seperti yang 
+dicantumkan
+ pada butir 
+ke
+-1, maka nilai 
+mahasiswa
+ dan/
+atau
+ kelompok yang melakukan kecurangan, 
+baik
+ menyontek 
+atau
+ dicontek, akan di
+nol
+kan 
+sesuai
+dengan
+peraturan
+ yang 
+berlaku
+.
+If it has been proven that a group has committed dishonest actions outlined in point 1 above, the 
+whole  groups
+ related to the incident, regardless of which one copies or has their answer copied, will be issued a score of zero according to the regulation.
+Jawaban
+ yang 
+dapat
+diterima
+ dan 
+dinilai
+adalah
+jawaban
+ yang 
+dikumpulkan
+sebelum
+ batas 
+waktu
+ yang 
+telah
+ditentukan
+.
+The answer must be submitted before the designated deadline to be accepted and graded,
+Jawaban
+akan
+dinilai
+berdasarkan
+teknik
+atau
+metode
+ yang 
+diajarkan
+ pada 
+kelas
+praktikum
+dengan
+menggunakan
+ software yang 
+sudah
+ditentukan
+.
+The scoring will be based on the materials taught during the practicum classes using the designated software. Using different software than requested may result in your answer not being graded.
+Jika Anda tidak membaca peraturan ini, maka Anda dianggap sudah membaca dan menyetujuinya.
+By taking this exam, you agree to these regulations, regardless of whether you have read it or not.
+Persentase penilaian untuk matakuliah in
+i
+ adalah sebagai berikut:
+The score will be distributed as follows:
+Tugas
+Mandiri
+Assignment
+Proyek
+Project
+UAP
+Final Exam
+-
+100%
+-
+Perangkat
+lunak
+ yang digunakan pada 
+matakuliah
+ini
+adalah
+sebagai
+berikut
+:
+This course uses the following software:
+Software
+Software
+NodeJS 22.16.0
+Visual Studio Code
+VueJS
+ Project + 
+TailwindCSS
+Web Browser (Google Chrome)
+Ekstensi
+ file yang harus 
+dikumpulkan
+untuk
+matakuliah
+ini
+adalah
+sebagai
+berikut
+:
+Your answers must be in the following file extensions:
+Tugas
+Mandiri
+Assignment
+Proyek
+Project
+UAP
+Final Exam
+-
+Vue Project
+-
+File yang 
+harus
+dikumpulkan
+adalah
+keseluruhan
+jawaban
+beserta
+dengan
+aset
+ yang 
+digunakan
+ (
+gambar
+, audio, video, 
+dll
+) dan 
+dokumentasi
+proyek
+ yang 
+berisikan
+ link 
+referensi
+aset
+ dan 
+penjelasan
+mengenai
+aplikasi
+ yang 
+dibuat
+ (
+terlampir
+bersama
+dengan
+soal
+).
+Include other files that can support your project, such as: all files in your project, other files (image, audio, video, etc.) used in your project, *.doc file (documentation of your project) that contains all pages in your project, reference links of additional files (image, audio, video, etc.) used in your project, the description about how to use your application, etc.
+Soal
+Case
+SpoJeDy
+In this project, you are a programmer working at a company called 
+Jedy
+, where you and your team are trusted to build a music streaming website named 
+SpoJeDy
+. Through this platform, users can explore and search for songs, listen to music anytime, and watch music videos from various artists. The story of 
+SpoJeDy
+ reflects how the 
+Jedy
+ development team transforms ideas into a complete web application, focusing on delivering an enjoyable and seamless entertainment experience while showcasing the students’ skills in designing, developing, and integrating multimedia features into a modern web platform. Your task is to develop the front-end using 
+VueJS
+ with criteria as follows:
+You will need to provide Navigation Bar to Navigate into Home Page, Music Video Page, and Profile Page. In this Navigation Bar, it also shows information about the Username and Profile Image.
+The web consists of a total of 5 Pages that are:
+Home Page
+Home Page will show the list of songs that 
+SpoJeDy
+ provided. 
+It will show information about:
+Song Title
+Song Artist
+Song Cover Image
+Notes: You only need to provide dummy data for this list of songs (minimum 2 songs
+)
+ and you must make sure that the Song Cover Image are fetched from CDN. (recommend using 
+imageKit
+ CDN)
+When user clicks on the song in this list, it will redirect to the clicked Song Detail Page.
+Song Detail Page
+Song Detail Page will show user’s clicked Song Detail. 
+In this page user can: 
+play the song
+pause the song
+change the volume
+go to the next song
+go to previous song. 
+In this page it will also show the Song Cover Image, and when the user clicks it, it will view the image as Full Screen. 
+When the Song Cover Image is 
+FullScreen
+, 
+user
+ can zoom in or zoom out the Image. Make sure user can exit 
+fullscreen
+.
+It is preferred to use CDN to store Song Audio File.
+In this page, user can also click a button to redirect to the Song’s Music Video Detail Page.
+Music Video Page
+Music Video Page will show the list of Music Video that 
+SpoJeDy
+ provided. It is the same as Song Data in Home Page, but users can watch Music Video instead of only listening to Song audio. 
+It will show information about:
+Music Video Title
+Music Video Artist
+Music Video Cover Image
+Notes: You only need to provide dummy data for this list of music videos (the same length as the songs), and you must make sure that the Music Video Cover Image are fetched from CDN. (recommend using 
+imageKit
+ CDN)
+When users click on the music video in this list, it will redirect to the clicked Music Video Detail page.
+Music Video Detail Page
+Music Video Detail Page will show user’s clicked Music Video Detail. 
+In this page user can: 
+play the music video
+pause the music video
+change the volume
+go to the next music video
+go to previous song
+fullscreen
+ the music video. 
+You must use CDN to store Music Video File.
+In this page, user can also click a button to redirect to the current Song Detail Page.
+Profile Page
+Profile Page will show the user’s information such as username, profile image, and theme preferences (Dark Mode or Light Mode). User can:
+Change username
+Upload profile image. The profile image must be compressed with maximum size of 1 MB and stored as blob. You must also include a progressive loading animation.
+Change theme preferences. When user changes the preferences, it will also change all other page’s UI according to the current theme preferences.
+You must store every profile data into local storage.
+Notes:
+Before uploading your answer, make sure you have deleted the node modules.
+You must create internal documentation (it is inline comment in your project that explains your code) and external documentation (using docs that explain what features you have made in each page, preferably using screenshots).
+Zip everything in your 
+vue
+ project excludes node modules and the external documentation.
+

@@ -1,0 +1,4378 @@
+<?xml version="1.0" encoding="UTF-8"?><w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex" xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex" xmlns:cx2="http://schemas.microsoft.com/office/drawing/2015/10/21/chartex" xmlns:cx3="http://schemas.microsoft.com/office/drawing/2016/5/9/chartex" xmlns:cx4="http://schemas.microsoft.com/office/drawing/2016/5/10/chartex" xmlns:cx5="http://schemas.microsoft.com/office/drawing/2016/5/11/chartex" xmlns:cx6="http://schemas.microsoft.com/office/drawing/2016/5/12/chartex" xmlns:cx7="http://schemas.microsoft.com/office/drawing/2016/5/13/chartex" xmlns:cx8="http://schemas.microsoft.com/office/drawing/2016/5/14/chartex" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:aink="http://schemas.microsoft.com/office/drawing/2016/ink" xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:oel="http://schemas.microsoft.com/office/2019/extlst" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:w16cex="http://schemas.microsoft.com/office/word/2018/wordml/cex" xmlns:w16cid="http://schemas.microsoft.com/office/word/2016/wordml/cid" xmlns:w16="http://schemas.microsoft.com/office/word/2018/wordml" xmlns:w16du="http://schemas.microsoft.com/office/word/2023/wordml/word16du" xmlns:w16sdtdh="http://schemas.microsoft.com/office/word/2020/wordml/sdtdatahash" xmlns:w16sdtfl="http://schemas.microsoft.com/office/word/2024/wordml/sdtformatlock" xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se w16cid w16 w16cex w16sdtdh w16sdtfl w16du wp14">
+  <w:body>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblW w:w="10218" w:type="dxa"/>
+        <w:jc w:val="center"/>
+        <w:tblBorders>
+          <w:top w:val="single" w:sz="18" w:space="0" w:color="auto"/>
+          <w:left w:val="single" w:sz="18" w:space="0" w:color="auto"/>
+          <w:bottom w:val="single" w:sz="18" w:space="0" w:color="auto"/>
+          <w:right w:val="single" w:sz="18" w:space="0" w:color="auto"/>
+          <w:insideH w:val="single" w:sz="18" w:space="0" w:color="auto"/>
+          <w:insideV w:val="single" w:sz="18" w:space="0" w:color="auto"/>
+        </w:tblBorders>
+        <w:tblLayout w:type="fixed"/>
+        <w:tblLook w:val="0000" w:firstRow="0" w:lastRow="0" w:firstColumn="0" w:lastColumn="0" w:noHBand="0" w:noVBand="0"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="6837"/>
+        <w:gridCol w:w="3381"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="00E0375C" w:rsidRPr="00876A58" w14:paraId="0345F1AD" w14:textId="77777777" w:rsidTr="005F47E6">
+        <w:trPr>
+          <w:cantSplit/>
+          <w:trHeight w:val="408"/>
+          <w:jc w:val="center"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="6837" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="double" w:sz="4" w:space="0" w:color="auto"/>
+              <w:left w:val="double" w:sz="4" w:space="0" w:color="auto"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="5AA02682" w14:textId="0CEB5BA8" w:rsidR="00811C48" w:rsidRPr="001E7ABE" w:rsidRDefault="004B6AFE" w:rsidP="00CF70DF">
+            <w:pPr>
+              <w:spacing w:line="360" w:lineRule="auto"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:b/>
+                <w:i/>
+                <w:sz w:val="32"/>
+              </w:rPr>
+            </w:pPr>
+            <w:bookmarkStart w:id="0" w:name="_Hlk122908363"/>
+            <w:bookmarkEnd w:id="0"/>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:b/>
+                <w:sz w:val="32"/>
+                <w:lang w:val="id-ID"/>
+              </w:rPr>
+              <w:t>Project Case</w:t>
+            </w:r>
+            
+            
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="3381" w:type="dxa"/>
+            <w:vMerge w:val="restart"/>
+            <w:tcBorders>
+              <w:top w:val="double" w:sz="4" w:space="0" w:color="auto"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+              <w:right w:val="double" w:sz="4" w:space="0" w:color="auto"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="4CF23772" w14:textId="58BBC4F7" w:rsidR="00E0375C" w:rsidRPr="00876A58" w:rsidRDefault="00156677" w:rsidP="00CF70DF">
+            <w:pPr>
+              <w:spacing w:line="360" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+                <w:sz w:val="18"/>
+                <w:lang w:val="id-ID"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+                <w:noProof/>
+                <w:sz w:val="18"/>
+                <w:lang w:eastAsia="en-US"/>
+              </w:rPr>
+              <w:drawing>
+                <wp:inline distT="0" distB="0" distL="0" distR="0" wp14:anchorId="36801C83" wp14:editId="34CE15AF">
+                  <wp:extent cx="1371557" cy="994410"/>
+                  <wp:effectExtent l="0" t="0" r="635" b="0"/>
+                  <wp:docPr id="4" name="Picture 4"/>
+                  <wp:cNvGraphicFramePr>
+                    <a:graphicFrameLocks xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" noChangeAspect="1"/>
+                  </wp:cNvGraphicFramePr>
+                  <a:graphic xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main">
+                    <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                      <pic:pic xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">
+                        <pic:nvPicPr>
+                          <pic:cNvPr id="0" name="Logo SLC.png"/>
+                          <pic:cNvPicPr/>
+                        </pic:nvPicPr>
+                        <pic:blipFill rotWithShape="1">
+                          <a:blip r:embed="rId8" cstate="print">
+                            <a:extLst>
+                              <a:ext uri="{28A0092B-C50C-407E-A947-70E740481C1C}">
+                                <a14:useLocalDpi xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="0"/>
+                              </a:ext>
+                            </a:extLst>
+                          </a:blip>
+                          <a:srcRect t="2794" r="2315"/>
+                          <a:stretch/>
+                        </pic:blipFill>
+                        <pic:spPr bwMode="auto">
+                          <a:xfrm>
+                            <a:off x="0" y="0"/>
+                            <a:ext cx="1371600" cy="994441"/>
+                          </a:xfrm>
+                          <a:prstGeom prst="rect">
+                            <a:avLst/>
+                          </a:prstGeom>
+                          <a:ln>
+                            <a:noFill/>
+                          </a:ln>
+                          <a:extLst>
+                            <a:ext uri="{53640926-AAD7-44D8-BBD7-CCE9431645EC}">
+                              <a14:shadowObscured xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main"/>
+                            </a:ext>
+                          </a:extLst>
+                        </pic:spPr>
+                      </pic:pic>
+                    </a:graphicData>
+                  </a:graphic>
+                </wp:inline>
+              </w:drawing>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="0052321F" w:rsidRPr="00876A58" w14:paraId="01EE7699" w14:textId="77777777" w:rsidTr="0077214C">
+        <w:trPr>
+          <w:cantSplit/>
+          <w:trHeight w:val="1295"/>
+          <w:jc w:val="center"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="6837" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+              <w:left w:val="double" w:sz="4" w:space="0" w:color="auto"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="297CEE4C" w14:textId="2A9DE027" w:rsidR="0052321F" w:rsidRDefault="0077214C" w:rsidP="0077214C">
+            <w:pPr>
+              <w:pStyle w:val="Header"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Arial Narrow" w:hAnsi="Arial Narrow" w:cs="Tahoma"/>
+                <w:sz w:val="36"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Arial Narrow" w:hAnsi="Arial Narrow" w:cs="Tahoma"/>
+                <w:sz w:val="36"/>
+              </w:rPr>
+              <w:t>COSC6095001</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="36656A16" w14:textId="28691EC0" w:rsidR="0052321F" w:rsidRPr="0052321F" w:rsidRDefault="0052321F" w:rsidP="0077214C">
+            <w:pPr>
+              <w:pStyle w:val="Header"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Arial Narrow" w:hAnsi="Arial Narrow" w:cs="Tahoma"/>
+                <w:sz w:val="36"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Arial Narrow" w:hAnsi="Arial Narrow" w:cs="Tahoma"/>
+                <w:sz w:val="36"/>
+              </w:rPr>
+              <w:t>Multimedia System and Programming Foundation</w:t>
+            </w:r>
+            
+            
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="3381" w:type="dxa"/>
+            <w:vMerge/>
+            <w:tcBorders>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+              <w:right w:val="double" w:sz="4" w:space="0" w:color="auto"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="6BA3B1F2" w14:textId="77777777" w:rsidR="0052321F" w:rsidRPr="00876A58" w:rsidRDefault="0052321F" w:rsidP="0052321F">
+            <w:pPr>
+              <w:spacing w:line="360" w:lineRule="auto"/>
+              <w:jc w:val="right"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+                <w:b/>
+                <w:sz w:val="18"/>
+                <w:lang w:val="id-ID"/>
+              </w:rPr>
+            </w:pPr>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="0052321F" w:rsidRPr="00876A58" w14:paraId="41D7A4B3" w14:textId="77777777" w:rsidTr="005F47E6">
+        <w:trPr>
+          <w:cantSplit/>
+          <w:trHeight w:val="530"/>
+          <w:jc w:val="center"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="6837" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+              <w:left w:val="double" w:sz="4" w:space="0" w:color="auto"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="594E1601" w14:textId="602AABDB" w:rsidR="0052321F" w:rsidRPr="00D121E5" w:rsidRDefault="0052321F" w:rsidP="0077214C">
+            <w:pPr>
+              <w:ind w:right="480"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Tahoma" w:hAnsi="Tahoma" w:cs="Tahoma"/>
+                <w:bCs/>
+                <w:sz w:val="18"/>
+                <w:highlight w:val="yellow"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:cs="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Computer Science</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="3381" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+              <w:right w:val="double" w:sz="4" w:space="0" w:color="auto"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="0F90D212" w14:textId="17722AFE" w:rsidR="0052321F" w:rsidRPr="0052321F" w:rsidRDefault="0052321F" w:rsidP="0052321F">
+            <w:pPr>
+              <w:jc w:val="right"/>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:eastAsia="Times New Roman" w:hAnsi="Calibri" w:cs="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+                <w:lang w:eastAsia="en-US"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:cs="Calibri"/>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>E262-COSC6095-JD01-00</w:t>
+            </w:r>
+            
+            
+            
+            
+            
+            
+            
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="0052321F" w:rsidRPr="00876A58" w14:paraId="29B361D6" w14:textId="77777777" w:rsidTr="005F47E6">
+        <w:trPr>
+          <w:trHeight w:val="513"/>
+          <w:jc w:val="center"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="6837" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+              <w:left w:val="double" w:sz="4" w:space="0" w:color="auto"/>
+              <w:bottom w:val="double" w:sz="4" w:space="0" w:color="auto"/>
+              <w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="20943E87" w14:textId="259D6A39" w:rsidR="0052321F" w:rsidRPr="0077214C" w:rsidRDefault="0052321F" w:rsidP="0077214C">
+            <w:pPr>
+              <w:pStyle w:val="Header"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+                <w:b/>
+                <w:i/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+                <w:lang w:val="id-ID"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+                <w:b/>
+                <w:i/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+                <w:lang w:val="id-ID"/>
+              </w:rPr>
+              <w:t>Valid on</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+                <w:b/>
+                <w:i/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+                <w:b/>
+                <w:bCs/>
+                <w:color w:val="000000"/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t>Even Semester Year 2025/2026</w:t>
+            </w:r>
+            
+            
+            
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="3381" w:type="dxa"/>
+            <w:tcBorders>
+              <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+              <w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+              <w:bottom w:val="double" w:sz="4" w:space="0" w:color="auto"/>
+              <w:right w:val="double" w:sz="4" w:space="0" w:color="auto"/>
+            </w:tcBorders>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="22DD953F" w14:textId="11E808E6" w:rsidR="0052321F" w:rsidRPr="0077214C" w:rsidRDefault="0052321F" w:rsidP="0077214C">
+            <w:pPr>
+              <w:pStyle w:val="Header"/>
+              <w:tabs>
+                <w:tab w:val="clear" w:pos="4680"/>
+                <w:tab w:val="left" w:pos="1830"/>
+              </w:tabs>
+              <w:jc w:val="right"/>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+                <w:b/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+                <w:i/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+                <w:lang w:val="id-ID"/>
+              </w:rPr>
+              <w:tab/>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+                <w:b/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+                <w:lang w:val="id-ID"/>
+              </w:rPr>
+              <w:t>Revision</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:asciiTheme="minorHAnsi" w:hAnsiTheme="minorHAnsi" w:cstheme="minorHAnsi"/>
+                <w:b/>
+                <w:sz w:val="22"/>
+                <w:szCs w:val="22"/>
+              </w:rPr>
+              <w:t xml:space="preserve"> 00</w:t>
+            </w:r>
+            
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w14:paraId="61BD2150" w14:textId="5A0B77B8" w:rsidR="00643F75" w:rsidRPr="009219A1" w:rsidRDefault="00643F75" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="11866FD2" w14:textId="2BAEBCEE" w:rsidR="0067791B" w:rsidRDefault="006929C3" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="10"/>
+        </w:numPr>
+        <w:tabs>
+          <w:tab w:val="clear" w:pos="720"/>
+          <w:tab w:val="num" w:pos="540"/>
+        </w:tabs>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="360"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:t>K</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t>elompok tidak diperkenankan untuk:</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="6992D05F" w14:textId="5B6A6F25" w:rsidR="008265F8" w:rsidRPr="008265F8" w:rsidRDefault="008265F8" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="360"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:i/>
+          <w:iCs/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:i/>
+          <w:iCs/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>Members of the group are prohibited from:</w:t>
+      </w:r>
+      
+      
+    </w:p>
+    <w:p w14:paraId="5FAD049F" w14:textId="2998D0F4" w:rsidR="0067791B" w:rsidRDefault="0067791B" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="2"/>
+          <w:numId w:val="11"/>
+        </w:numPr>
+        <w:tabs>
+          <w:tab w:val="clear" w:pos="2160"/>
+        </w:tabs>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="720"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t>Me</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t>lihat</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t>sebagian atau seluruh jawaban kelompok lain</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t>,</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="794C3587" w14:textId="17C384F1" w:rsidR="008265F8" w:rsidRPr="008265F8" w:rsidRDefault="008265F8" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:iCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:iCs/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>Seeing a part or the whole answer from other groups,</w:t>
+      </w:r>
+      
+      
+    </w:p>
+    <w:p w14:paraId="42B9C28B" w14:textId="42CFD044" w:rsidR="0067791B" w:rsidRDefault="0067791B" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="2"/>
+          <w:numId w:val="11"/>
+        </w:numPr>
+        <w:tabs>
+          <w:tab w:val="clear" w:pos="2160"/>
+        </w:tabs>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="720"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+      </w:pPr>
+      
+      <w:r>
+        <w:t>Menyadur sebagian atau seluruh jawaban dari buku, catatan, video, dan jenis referensi lainnya</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t>,</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2EDE921E" w14:textId="23CFF9ED" w:rsidR="008265F8" w:rsidRPr="008265F8" w:rsidRDefault="000D1BCE" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:iCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:iCs/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>Retell a part or the whole answer from books, notes, videos, and other references,</w:t>
+      </w:r>
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="3E3CE5E5" w14:textId="07DC3354" w:rsidR="0067791B" w:rsidRDefault="007052E0" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="2"/>
+          <w:numId w:val="11"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="720"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+      </w:pPr>
+      
+      <w:r>
+        <w:t>Menyadur</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> sebagian </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t>atau</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> seluruh </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t>jawaban dari internet</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t>,</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="25A9D15E" w14:textId="19541700" w:rsidR="008265F8" w:rsidRPr="008265F8" w:rsidRDefault="000D1BCE" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:iCs/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:iCs/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>Retell a part or the whole answer from the internet,</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="28AFF960" w14:textId="1DCB8896" w:rsidR="0067791B" w:rsidRPr="008265F8" w:rsidRDefault="007A7036" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="2"/>
+          <w:numId w:val="11"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="720"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+      </w:pPr>
+      
+      <w:r>
+        <w:t>Mengumpulkan jawaban yang tidak sesuai dengan tema soal,</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="10E5F61A" w14:textId="77777777" w:rsidR="008265F8" w:rsidRPr="008265F8" w:rsidRDefault="008265F8" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:i/>
+          <w:iCs/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:bookmarkStart w:id="1" w:name="_Hlk119341647"/>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:iCs/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>Submitting an answer with a different theme from the given case,</w:t>
+      </w:r>
+    </w:p>
+    <w:bookmarkEnd w:id="1"/>
+    <w:p w14:paraId="4F497F1E" w14:textId="27AEC0AB" w:rsidR="008265F8" w:rsidRDefault="000D1BCE" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="2"/>
+          <w:numId w:val="11"/>
+        </w:numPr>
+        <w:tabs>
+          <w:tab w:val="clear" w:pos="2160"/>
+        </w:tabs>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="720"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      
+      <w:r>
+        <w:t xml:space="preserve">Melakukan tindakan </w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t xml:space="preserve">yang menyebabkan </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t xml:space="preserve">jawaban </w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t xml:space="preserve">dicontek oleh orang lain </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t xml:space="preserve">atau </w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t>kelompok lain</w:t>
+      </w:r>
+      <w:r>
+        <w:t>, baik disengaja maupun tidak disengaja,</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="466ED0A7" w14:textId="6866046A" w:rsidR="008265F8" w:rsidRPr="008265F8" w:rsidRDefault="008265F8" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:iCs/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:iCs/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>Doing action that could result the answer being copied by someone or other groups, intentionally or unintentionally,</w:t>
+      </w:r>
+      
+      
+    </w:p>
+    <w:p w14:paraId="1F8ED832" w14:textId="5F129AD5" w:rsidR="00C85ABB" w:rsidRPr="00CA2529" w:rsidRDefault="00C85ABB" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="2"/>
+          <w:numId w:val="11"/>
+        </w:numPr>
+        <w:tabs>
+          <w:tab w:val="clear" w:pos="2160"/>
+        </w:tabs>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="720"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t>Melakukan tindakan kecurangan lainnya</w:t>
+      </w:r>
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="38B1FEF5" w14:textId="386E7881" w:rsidR="00C85ABB" w:rsidRPr="003E5642" w:rsidRDefault="00C85ABB" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="720"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:iCs/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>Committing other dishonest actions.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5FE13FB9" w14:textId="77777777" w:rsidR="0067791B" w:rsidRPr="00BD0E8D" w:rsidRDefault="0067791B" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="7535D842" w14:textId="77777777" w:rsidR="00345281" w:rsidRDefault="0067791B" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="10"/>
+        </w:numPr>
+        <w:tabs>
+          <w:tab w:val="clear" w:pos="720"/>
+        </w:tabs>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="360"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t xml:space="preserve">Jika kelompok terbukti melakukan </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t>tindakan</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> seperti yang </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t>dicantumkan pada</w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> butir </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t>ke-</w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t xml:space="preserve">1, maka nilai </w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:t xml:space="preserve">mahasiswa dan/atau </w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t>kelompok yang melakukan kecurangan</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">, baik </w:t>
+      </w:r>
+      
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t xml:space="preserve">menyontek </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t xml:space="preserve">atau </w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t>dicontek</w:t>
+      </w:r>
+      <w:r>
+        <w:t>,</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> akan di</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t>nol</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t>kan</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> sesuai dengan peraturan yang berlaku.</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="3D9CEEDD" w14:textId="6EE30A85" w:rsidR="007E0CB9" w:rsidRDefault="00345281" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="360"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t xml:space="preserve">If it has been proven that a group has committed dishonest actions outlined in point 1 above, the whole  groups related to the incident, regardless of which one copies or has their answer copied, will be issued a score of </w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+          <w:u w:val="single"/>
+        </w:rPr>
+        <w:t>zero</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> according to the regulation.</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="22B79EA2" w14:textId="76043D9A" w:rsidR="000D1BCE" w:rsidRPr="00F23967" w:rsidRDefault="000D1BCE" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:spacing w:after="200" w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="24B4C696" w14:textId="77777777" w:rsidR="007E0CB9" w:rsidRDefault="00BC18A9" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="10"/>
+        </w:numPr>
+        <w:tabs>
+          <w:tab w:val="clear" w:pos="720"/>
+          <w:tab w:val="num" w:pos="540"/>
+        </w:tabs>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="360"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+      </w:pPr>
+      
+      <w:r>
+        <w:t>Jawaban yang dapat diterima dan dinilai adalah jawaban yang dikumpulkan sebelum batas waktu yang telah ditentukan.</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="0A0A4939" w14:textId="2F171CB3" w:rsidR="007E0CB9" w:rsidRPr="007E0CB9" w:rsidRDefault="007E0CB9" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="360"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>The answer must be submitted before the designated deadline to be accepted and graded</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:iCs/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>,</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3FFC3E75" w14:textId="7598AF9A" w:rsidR="007B72CA" w:rsidRDefault="007B72CA" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:spacing w:after="200" w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="5A8D5486" w14:textId="77777777" w:rsidR="007E0CB9" w:rsidRDefault="001E4C25" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="10"/>
+        </w:numPr>
+        <w:tabs>
+          <w:tab w:val="clear" w:pos="720"/>
+          <w:tab w:val="num" w:pos="540"/>
+        </w:tabs>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="360"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+      </w:pPr>
+      
+      <w:r>
+        <w:lastRenderedPageBreak/>
+        <w:t>Jawaban akan dinilai berdasarkan teknik atau metode yang diajarkan pada kelas praktikum dengan menggunakan software yang sudah ditentukan.</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="6D463193" w14:textId="755D8A60" w:rsidR="007E0CB9" w:rsidRPr="007E0CB9" w:rsidRDefault="007E0CB9" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="360"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>The scoring will be based on the materials taught during the practicum classes using the designated software</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:iCs/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>. Using different software than requested may result in your answer not being graded.</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="285BFE8E" w14:textId="284CE544" w:rsidR="004B4944" w:rsidRPr="004B4944" w:rsidRDefault="004B4944" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:iCs/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="5E8ECE44" w14:textId="77777777" w:rsidR="000772E3" w:rsidRDefault="00C62640" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="10"/>
+        </w:numPr>
+        <w:tabs>
+          <w:tab w:val="clear" w:pos="720"/>
+          <w:tab w:val="num" w:pos="540"/>
+        </w:tabs>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="360"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:eastAsia="x-none"/>
+        </w:rPr>
+        <w:t>Jika</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID" w:eastAsia="x-none"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> Anda tidak membaca peraturan ini, maka Anda dianggap </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:lang w:eastAsia="x-none"/>
+        </w:rPr>
+        <w:t xml:space="preserve">sudah </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID" w:eastAsia="x-none"/>
+        </w:rPr>
+        <w:t>membaca dan menyetujuinya</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:lang w:eastAsia="x-none"/>
+        </w:rPr>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5E39E6B8" w14:textId="6A266957" w:rsidR="000772E3" w:rsidRDefault="000772E3" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="360"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>By taking this exam, you agree to these regulations, regardless of whether you have read it or not.</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="5EA40C6A" w14:textId="739A7012" w:rsidR="000D1BCE" w:rsidRPr="00F23967" w:rsidRDefault="000D1BCE" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:iCs/>
+          <w:color w:val="000000"/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="7F472DC7" w14:textId="77777777" w:rsidR="002A7D96" w:rsidRDefault="002A7D96" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="10"/>
+        </w:numPr>
+        <w:tabs>
+          <w:tab w:val="clear" w:pos="720"/>
+          <w:tab w:val="num" w:pos="540"/>
+        </w:tabs>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="360"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t>Persentase penilaian untuk matakuliah in</w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:t>i</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> adalah sebagai berikut</w:t>
+      </w:r>
+      <w:r>
+        <w:t>:</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="68B42DF7" w14:textId="7AC2F615" w:rsidR="002A7D96" w:rsidRPr="00A031F5" w:rsidRDefault="002A7D96" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="360"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>The score will be distributed as follows:</w:t>
+      </w:r>
+      
+      
+      
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblStyle w:val="TableGrid"/>
+        <w:tblW w:w="9015" w:type="dxa"/>
+        <w:tblInd w:w="468" w:type="dxa"/>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="3005"/>
+        <w:gridCol w:w="3005"/>
+        <w:gridCol w:w="3005"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="002A7D96" w:rsidRPr="007E1E52" w14:paraId="4DA93A49" w14:textId="77777777" w:rsidTr="0036570E">
+        <w:trPr>
+          <w:trHeight w:val="504"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="3005" w:type="dxa"/>
+            <w:shd w:val="clear" w:color="auto" w:fill="D9D9D9" w:themeFill="background1" w:themeFillShade="D9"/>
+          </w:tcPr>
+          <w:p w14:paraId="6354548A" w14:textId="77777777" w:rsidR="002A7D96" w:rsidRPr="007E1E52" w:rsidRDefault="002A7D96" w:rsidP="00CF70DF">
+            <w:pPr>
+              <w:spacing w:line="360" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>Tugas Mandiri</w:t>
+            </w:r>
+            
+            
+            
+            
+            
+          </w:p>
+          <w:p w14:paraId="353C1CFB" w14:textId="77777777" w:rsidR="002A7D96" w:rsidRPr="007E1E52" w:rsidRDefault="002A7D96" w:rsidP="00CF70DF">
+            <w:pPr>
+              <w:spacing w:line="360" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:bCs/>
+                <w:i/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:bCs/>
+                <w:i/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>Assignment</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="3005" w:type="dxa"/>
+            <w:shd w:val="clear" w:color="auto" w:fill="D9D9D9" w:themeFill="background1" w:themeFillShade="D9"/>
+          </w:tcPr>
+          <w:p w14:paraId="5E30A3C5" w14:textId="77777777" w:rsidR="002A7D96" w:rsidRPr="007E1E52" w:rsidRDefault="002A7D96" w:rsidP="00CF70DF">
+            <w:pPr>
+              <w:spacing w:line="360" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>Proyek</w:t>
+            </w:r>
+            
+          </w:p>
+          <w:p w14:paraId="0B07AD90" w14:textId="77777777" w:rsidR="002A7D96" w:rsidRPr="007E1E52" w:rsidRDefault="002A7D96" w:rsidP="00CF70DF">
+            <w:pPr>
+              <w:spacing w:line="360" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:bCs/>
+                <w:i/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>Project</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="3005" w:type="dxa"/>
+            <w:shd w:val="clear" w:color="auto" w:fill="D9D9D9" w:themeFill="background1" w:themeFillShade="D9"/>
+          </w:tcPr>
+          <w:p w14:paraId="409A1D7E" w14:textId="77777777" w:rsidR="002A7D96" w:rsidRPr="002B1798" w:rsidRDefault="002A7D96" w:rsidP="00CF70DF">
+            <w:pPr>
+              <w:spacing w:line="360" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+              </w:rPr>
+              <w:t>UAP</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="736A3CBE" w14:textId="77777777" w:rsidR="002A7D96" w:rsidRPr="007E1E52" w:rsidRDefault="002A7D96" w:rsidP="00CF70DF">
+            <w:pPr>
+              <w:spacing w:line="360" w:lineRule="auto"/>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:bCs/>
+                <w:i/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>Final Exam</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00703E15" w:rsidRPr="007E1E52" w14:paraId="604F283F" w14:textId="77777777" w:rsidTr="00BC60D9">
+        <w:trPr>
+          <w:trHeight w:val="448"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="3005" w:type="dxa"/>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="4136AE8D" w14:textId="477495F2" w:rsidR="00703E15" w:rsidRPr="009954C6" w:rsidRDefault="0077214C" w:rsidP="00BC60D9">
+            <w:pPr>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:bCs/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:bCs/>
+              </w:rPr>
+              <w:t>-</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="3005" w:type="dxa"/>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="69D3328F" w14:textId="5C5144ED" w:rsidR="00703E15" w:rsidRPr="009954C6" w:rsidRDefault="0077214C" w:rsidP="00BC60D9">
+            <w:pPr>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:bCs/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:bCs/>
+              </w:rPr>
+              <w:t>100%</w:t>
+            </w:r>
+            
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="3005" w:type="dxa"/>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="664781E5" w14:textId="77777777" w:rsidR="00703E15" w:rsidRPr="009954C6" w:rsidRDefault="00703E15" w:rsidP="00BC60D9">
+            <w:pPr>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:bCs/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:bCs/>
+              </w:rPr>
+              <w:t>-</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w14:paraId="57C7F4F8" w14:textId="77777777" w:rsidR="00703E15" w:rsidRPr="00D23F8D" w:rsidRDefault="00703E15" w:rsidP="00703E15">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="2D0DA024" w14:textId="77777777" w:rsidR="00703E15" w:rsidRDefault="00703E15" w:rsidP="00703E15">
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="10"/>
+        </w:numPr>
+        <w:tabs>
+          <w:tab w:val="clear" w:pos="720"/>
+          <w:tab w:val="num" w:pos="540"/>
+        </w:tabs>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="360"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+      </w:pPr>
+      
+      <w:r>
+        <w:t>Perangkat lunak</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t xml:space="preserve"> yang digunakan </w:t>
+      </w:r>
+      <w:r>
+        <w:t>pada matakuliah ini adalah sebagai berikut:</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="7EC55AF1" w14:textId="77777777" w:rsidR="00703E15" w:rsidRPr="00A031F5" w:rsidRDefault="00703E15" w:rsidP="00703E15">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="360"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+      </w:pPr>
+      <w:bookmarkStart w:id="2" w:name="_Hlk119341559"/>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>This course uses the following software:</w:t>
+      </w:r>
+      
+      
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblStyle w:val="TableGrid"/>
+        <w:tblW w:w="0" w:type="auto"/>
+        <w:tblInd w:w="468" w:type="dxa"/>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="9025"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="00703E15" w14:paraId="1316F364" w14:textId="77777777" w:rsidTr="00BC60D9">
+        <w:trPr>
+          <w:trHeight w:val="504"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="9025" w:type="dxa"/>
+            <w:shd w:val="clear" w:color="auto" w:fill="D9D9D9" w:themeFill="background1" w:themeFillShade="D9"/>
+          </w:tcPr>
+          <w:bookmarkEnd w:id="2"/>
+          <w:p w14:paraId="743ED5E5" w14:textId="77777777" w:rsidR="00703E15" w:rsidRPr="009954C6" w:rsidRDefault="00703E15" w:rsidP="00BC60D9">
+            <w:pPr>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>Software</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="29A0A642" w14:textId="77777777" w:rsidR="00703E15" w:rsidRPr="009954C6" w:rsidRDefault="00703E15" w:rsidP="00BC60D9">
+            <w:pPr>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:bCs/>
+                <w:i/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:bCs/>
+                <w:i/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>Software</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00703E15" w14:paraId="4B7A97E2" w14:textId="77777777" w:rsidTr="00BC60D9">
+        <w:trPr>
+          <w:trHeight w:val="1286"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="9025" w:type="dxa"/>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="40AA5871" w14:textId="77777777" w:rsidR="00654FB4" w:rsidRPr="00654FB4" w:rsidRDefault="00654FB4" w:rsidP="00654FB4">
+            <w:pPr>
+              <w:rPr>
+                <w:color w:val="000000"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:color w:val="000000"/>
+              </w:rPr>
+              <w:t>NodeJS 22.16.0</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="620FB2A7" w14:textId="77777777" w:rsidR="00654FB4" w:rsidRPr="00654FB4" w:rsidRDefault="00654FB4" w:rsidP="00654FB4">
+            <w:pPr>
+              <w:rPr>
+                <w:color w:val="000000"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:color w:val="000000"/>
+              </w:rPr>
+              <w:t>Visual Studio Code</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="0F459513" w14:textId="77777777" w:rsidR="00654FB4" w:rsidRPr="00654FB4" w:rsidRDefault="00654FB4" w:rsidP="00654FB4">
+            <w:pPr>
+              <w:rPr>
+                <w:color w:val="000000"/>
+              </w:rPr>
+            </w:pPr>
+            
+            <w:r>
+              <w:rPr>
+                <w:color w:val="000000"/>
+              </w:rPr>
+              <w:t>VueJS Project + TailwindCSS</w:t>
+            </w:r>
+            
+            
+            
+            
+            
+          </w:p>
+          <w:p w14:paraId="05B6A8E9" w14:textId="7B74BCA9" w:rsidR="00703E15" w:rsidRPr="009954C6" w:rsidRDefault="00654FB4" w:rsidP="00654FB4">
+            <w:pPr>
+              <w:rPr>
+                <w:bCs/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:color w:val="000000"/>
+              </w:rPr>
+              <w:t>Web Browser (Google Chrome)</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w14:paraId="39219D82" w14:textId="77777777" w:rsidR="00703E15" w:rsidRPr="00B57FC4" w:rsidRDefault="00703E15" w:rsidP="00703E15">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="59A446FD" w14:textId="77777777" w:rsidR="00703E15" w:rsidRPr="00D23F8D" w:rsidRDefault="00703E15" w:rsidP="00703E15">
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="10"/>
+        </w:numPr>
+        <w:tabs>
+          <w:tab w:val="clear" w:pos="720"/>
+          <w:tab w:val="num" w:pos="540"/>
+        </w:tabs>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="360"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      
+      <w:r>
+        <w:t xml:space="preserve">Ekstensi file yang </w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t>harus</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> dikumpulkan untuk matakuliah ini adalah sebagai berikut:</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="0E442BAF" w14:textId="77777777" w:rsidR="00703E15" w:rsidRPr="00A031F5" w:rsidRDefault="00703E15" w:rsidP="00703E15">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="360"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>Your answers must be in the following file extensions:</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:tbl>
+      <w:tblPr>
+        <w:tblStyle w:val="TableGrid"/>
+        <w:tblW w:w="9015" w:type="dxa"/>
+        <w:tblInd w:w="468" w:type="dxa"/>
+        <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+      </w:tblPr>
+      <w:tblGrid>
+        <w:gridCol w:w="3005"/>
+        <w:gridCol w:w="3005"/>
+        <w:gridCol w:w="3005"/>
+      </w:tblGrid>
+      <w:tr w:rsidR="00703E15" w14:paraId="70ECCB62" w14:textId="77777777" w:rsidTr="00BC60D9">
+        <w:trPr>
+          <w:trHeight w:val="504"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="3005" w:type="dxa"/>
+            <w:shd w:val="clear" w:color="auto" w:fill="D9D9D9" w:themeFill="background1" w:themeFillShade="D9"/>
+          </w:tcPr>
+          <w:p w14:paraId="684C8EE5" w14:textId="77777777" w:rsidR="00703E15" w:rsidRPr="007E1E52" w:rsidRDefault="00703E15" w:rsidP="00BC60D9">
+            <w:pPr>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>Tugas Mandiri</w:t>
+            </w:r>
+            
+            
+            
+            
+            
+          </w:p>
+          <w:p w14:paraId="5C12DB7B" w14:textId="77777777" w:rsidR="00703E15" w:rsidRPr="007E1E52" w:rsidRDefault="00703E15" w:rsidP="00BC60D9">
+            <w:pPr>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:bCs/>
+                <w:i/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:bCs/>
+                <w:i/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>Assignment</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="3005" w:type="dxa"/>
+            <w:shd w:val="clear" w:color="auto" w:fill="D9D9D9" w:themeFill="background1" w:themeFillShade="D9"/>
+          </w:tcPr>
+          <w:p w14:paraId="5A7AD3ED" w14:textId="77777777" w:rsidR="00703E15" w:rsidRPr="007E1E52" w:rsidRDefault="00703E15" w:rsidP="00BC60D9">
+            <w:pPr>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>Proyek</w:t>
+            </w:r>
+            
+          </w:p>
+          <w:p w14:paraId="3521078F" w14:textId="77777777" w:rsidR="00703E15" w:rsidRPr="007E1E52" w:rsidRDefault="00703E15" w:rsidP="00BC60D9">
+            <w:pPr>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:bCs/>
+                <w:i/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>Project</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="3005" w:type="dxa"/>
+            <w:shd w:val="clear" w:color="auto" w:fill="D9D9D9" w:themeFill="background1" w:themeFillShade="D9"/>
+          </w:tcPr>
+          <w:p w14:paraId="4F2BD855" w14:textId="77777777" w:rsidR="00703E15" w:rsidRPr="002B1798" w:rsidRDefault="00703E15" w:rsidP="00BC60D9">
+            <w:pPr>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+              </w:rPr>
+              <w:t>UAP</w:t>
+            </w:r>
+          </w:p>
+          <w:p w14:paraId="6017177C" w14:textId="77777777" w:rsidR="00703E15" w:rsidRPr="007E1E52" w:rsidRDefault="00703E15" w:rsidP="00BC60D9">
+            <w:pPr>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:b/>
+                <w:bCs/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:bCs/>
+                <w:i/>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+              </w:rPr>
+              <w:t>Final Exam</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+      <w:tr w:rsidR="00703E15" w14:paraId="6DDD1D55" w14:textId="77777777" w:rsidTr="00BC60D9">
+        <w:trPr>
+          <w:trHeight w:val="1383"/>
+        </w:trPr>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="3005" w:type="dxa"/>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="4743588D" w14:textId="3EBC6B87" w:rsidR="00703E15" w:rsidRPr="00B81B06" w:rsidRDefault="00654FB4" w:rsidP="00BC60D9">
+            <w:pPr>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:bCs/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:bCs/>
+              </w:rPr>
+              <w:t>-</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="3005" w:type="dxa"/>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="7DA8ED10" w14:textId="7D50D3DA" w:rsidR="00703E15" w:rsidRPr="00B81B06" w:rsidRDefault="00654FB4" w:rsidP="00BC60D9">
+            <w:pPr>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:bCs/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:bCs/>
+              </w:rPr>
+              <w:t>Vue Project</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+        <w:tc>
+          <w:tcPr>
+            <w:tcW w:w="3005" w:type="dxa"/>
+            <w:vAlign w:val="center"/>
+          </w:tcPr>
+          <w:p w14:paraId="549B88D4" w14:textId="77777777" w:rsidR="00703E15" w:rsidRPr="00B81B06" w:rsidRDefault="00703E15" w:rsidP="00BC60D9">
+            <w:pPr>
+              <w:jc w:val="center"/>
+              <w:rPr>
+                <w:bCs/>
+              </w:rPr>
+            </w:pPr>
+            <w:r>
+              <w:rPr>
+                <w:bCs/>
+              </w:rPr>
+              <w:t>-</w:t>
+            </w:r>
+          </w:p>
+        </w:tc>
+      </w:tr>
+    </w:tbl>
+    <w:p w14:paraId="692B7858" w14:textId="276BC800" w:rsidR="00542F38" w:rsidRPr="00F23967" w:rsidRDefault="00542F38" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:i/>
+          <w:sz w:val="18"/>
+          <w:szCs w:val="18"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="02C4CD86" w14:textId="24E91363" w:rsidR="00974E5F" w:rsidRPr="00D23F8D" w:rsidRDefault="00974E5F" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="10"/>
+        </w:numPr>
+        <w:tabs>
+          <w:tab w:val="clear" w:pos="720"/>
+          <w:tab w:val="num" w:pos="540"/>
+        </w:tabs>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="360"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:t>File yang harus dikumpulkan adalah keseluruhan jawaban beserta dengan aset yang digunakan (gambar, audio, video, dll) dan dokumentasi proyek yang berisikan link referensi aset dan penjelasan mengenai aplikasi yang dibuat (terlampir bersama dengan soal).</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="702C8D29" w14:textId="0F2CF8A3" w:rsidR="00EA030E" w:rsidRPr="00465271" w:rsidRDefault="00E77061" w:rsidP="00465271">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="360"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:i/>
+          <w:iCs/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rStyle w:val="longtext"/>
+          <w:i/>
+          <w:iCs/>
+          <w:sz w:val="20"/>
+          <w:szCs w:val="20"/>
+        </w:rPr>
+        <w:t>Include other files that can support your project, such as: all files in your project, other files (image, audio, video, etc.) used in your project, *.doc file (documentation of your project) that contains all pages in your project, reference links of additional files (image, audio, video, etc.) used in your project, the description about how to use your application, etc.</w:t>
+      </w:r>
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="35780AD8" w14:textId="77777777" w:rsidR="00643F75" w:rsidRPr="00876A58" w:rsidRDefault="00643F75" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:spacing w:before="0" w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:color w:val="auto"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/>
+          <w:color w:val="auto"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:lastRenderedPageBreak/>
+        <w:t>Soal</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5944C88C" w14:textId="77777777" w:rsidR="004B47B5" w:rsidRPr="001E4042" w:rsidRDefault="004B47B5" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:i/>
+          <w:sz w:val="16"/>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:i/>
+          <w:sz w:val="16"/>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+        <w:t>Case</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3ECE9906" w14:textId="77777777" w:rsidR="00643F75" w:rsidRDefault="00643F75" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:rPr>
+          <w:lang w:val="id-ID"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="3116BDF4" w14:textId="11523D75" w:rsidR="00AE480A" w:rsidRPr="00A120FC" w:rsidRDefault="00654FB4" w:rsidP="00CF70DF">
+      <w:pPr>
+        <w:spacing w:after="240" w:line="360" w:lineRule="auto"/>
+        <w:jc w:val="center"/>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+        </w:rPr>
+      </w:pPr>
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+          <w:sz w:val="32"/>
+          <w:szCs w:val="32"/>
+        </w:rPr>
+        <w:t>SpoJeDy</w:t>
+      </w:r>
+      
+      
+      
+      
+      
+    </w:p>
+    <w:p w14:paraId="688DD6D1" w14:textId="6B483438" w:rsidR="008C6276" w:rsidRDefault="00E660E8" w:rsidP="00E660E8">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="0" w:firstLine="851"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">In this project, you are a programmer working at a company called </w:t>
+      </w:r>
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Jedy</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t xml:space="preserve">, where you and your team are trusted to build a music streaming website named </w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>SpoJeDy</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t xml:space="preserve">. Through this platform, users can explore and search for songs, listen to music anytime, and watch music videos from various artists. The story of </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>SpoJeDy</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t xml:space="preserve"> reflects how the </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Jedy</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t xml:space="preserve"> development team transforms ideas into a complete web application, focusing on delivering an enjoyable and seamless entertainment experience while showcasing the students&#x2019; skills in designing, developing, and integrating multimedia features into a modern web platform. Your task is to develop the front-end using </w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>VueJS</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t xml:space="preserve"> with criteria as follows:</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4882BE63" w14:textId="77777777" w:rsidR="00E660E8" w:rsidRDefault="00E660E8" w:rsidP="00E660E8">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="0" w:firstLine="851"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="767ACC77" w14:textId="6AF555EF" w:rsidR="00E660E8" w:rsidRDefault="00E660E8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="35"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="284" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">You will need to provide </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Navigation Bar</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> to Navigate into </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Home Page</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">, </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Music Video Page</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">, and </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Profile Page</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">. In this </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Navigation Bar</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">, it also shows information about the </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Username</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t xml:space="preserve"> and </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Profile Image</w:t>
+      </w:r>
+      
+      
+      
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7397C2D4" w14:textId="6D71D222" w:rsidR="00E660E8" w:rsidRDefault="00E660E8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="35"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="284" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">The web consists of a total of </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>5 Pages</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> that are:</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7F19A737" w14:textId="40EECA59" w:rsidR="00E660E8" w:rsidRDefault="00E660E8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="3"/>
+          <w:numId w:val="11"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="568" w:hanging="284"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Home Page</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="772704DC" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="00E660E8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Home Page</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> will show the </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>list of songs</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> that </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>SpoJeDy</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t xml:space="preserve"> provided. </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="45A2FFF3" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="00E660E8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t>It will show information about:</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="33D7D420" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="00E660E8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="36"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="851" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Song Title</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4DF9D4BA" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="00E660E8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="36"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="851" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Song Artist</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4F5CCF73" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="00E660E8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="36"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="851" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Song Cover Image</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2FB2CB91" w14:textId="73BAA5CF" w:rsidR="00E660E8" w:rsidRDefault="006F6CDC" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Notes:</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> You only need to provide </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve">dummy data </w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">for this </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve">list of songs </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t>(</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>minimum 2 songs</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t xml:space="preserve">) and you </w:t>
+      </w:r>
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>must</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> make sure that the </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Song Cover Image</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> are fetched from </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>CDN</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">. (recommend using </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>imageKit CDN</w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:t>)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="44493505" w14:textId="30CC31D0" w:rsidR="00E660E8" w:rsidRPr="00E660E8" w:rsidRDefault="00E660E8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">When user </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>clicks</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> on the song </w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>in this list</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">, it will redirect to the clicked </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Song Detail Page</w:t>
+      </w:r>
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="41C9F4A5" w14:textId="43432639" w:rsidR="00E660E8" w:rsidRDefault="00E660E8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="3"/>
+          <w:numId w:val="11"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="568" w:hanging="284"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Song Detail Page</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5E1FFA8B" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="00A72108" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Song Detail Page</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> will show user&#x2019;s clicked </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Song Detail</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">. </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="65B7EB73" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="00A72108" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">In this page user can: </w:t>
+      </w:r>
+      
+      
+    </w:p>
+    <w:p w14:paraId="78BDDAD0" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="00A72108" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="36"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="851" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>play the song</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="2B1FA8E2" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="00A72108" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="36"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="851" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>pause the song</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="293AE333" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="00A72108" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="36"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="851" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>change the volume</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="09578E44" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="00A72108" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="36"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="851" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:lastRenderedPageBreak/>
+        <w:t>go to the next song</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="46354CD6" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="00A72108" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="36"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="851" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>go to previous song</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">. </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="3D461E7F" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="00A72108" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">In this page it will also show the </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Song Cover Image</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">, and when the user clicks it, it will view the image as </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Full Screen</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">. </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="70516950" w14:textId="0B104036" w:rsidR="00A72108" w:rsidRDefault="00A72108" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">When the </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Song Cover Image</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> is </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>FullScreen</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t xml:space="preserve">, user can </w:t>
+      </w:r>
+      
+      
+      
+      
+      
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>zoom in</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> or </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>zoom out the Image</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">. Make sure user can </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>exit fullscreen</w:t>
+      </w:r>
+      
+      
+      
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="15251CCD" w14:textId="707C77C3" w:rsidR="00A72108" w:rsidRDefault="00A72108" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">It is </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>preferred</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> to use </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>CDN</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> to store </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Song Audio File</w:t>
+      </w:r>
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="37D230D2" w14:textId="00933726" w:rsidR="00A72108" w:rsidRPr="00A72108" w:rsidRDefault="00A72108" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">In this page, user can also click a button to redirect to the </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Song&#x2019;s Music Video Detail Page</w:t>
+      </w:r>
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5DC4DCAA" w14:textId="5112C4D2" w:rsidR="00E660E8" w:rsidRPr="00A72108" w:rsidRDefault="00E660E8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="3"/>
+          <w:numId w:val="11"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="568" w:hanging="284"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Music Video Page</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="410AC3BE" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="004F4AB8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Music Video Page</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> will show the </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>list of Music Video</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> that </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>SpoJeDy</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t xml:space="preserve"> provided. It is the same as </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Song Data</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> in </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Home Page</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">, but users can watch </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve">Music Video </w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">instead of only listening to </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Song audio</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">. </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1A8AA32F" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="004F4AB8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t>It will show information about:</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="4810CD26" w14:textId="23CE3FEE" w:rsidR="006F6CDC" w:rsidRDefault="004F4AB8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="36"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="851" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Music Video Title</w:t>
+      </w:r>
+      
+      
+    </w:p>
+    <w:p w14:paraId="2BCF99CF" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="004F4AB8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="36"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="851" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Music Video Artist</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="6CC341B7" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="004F4AB8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="36"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="851" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Music Video Cover Image</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="0CBE0C0D" w14:textId="3B8F7042" w:rsidR="004F4AB8" w:rsidRDefault="006F6CDC" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Notes:</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> You only need to provide </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve">dummy data </w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">for this </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t xml:space="preserve">list of music videos </w:t>
+      </w:r>
+      
+      
+      
+      <w:r>
+        <w:t>(</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>the same length as the songs</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">), and you </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>must</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> make sure that the </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Music Video Cover Image</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t xml:space="preserve"> are fetched from </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>CDN</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">. (recommend using </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>imageKit CDN</w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:t>)</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="5831D91D" w14:textId="63B341FC" w:rsidR="00A72108" w:rsidRPr="004F4AB8" w:rsidRDefault="004F4AB8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">When users click on the music video in this list, it will redirect to the clicked </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Music Video Detail page</w:t>
+      </w:r>
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4BB65DF2" w14:textId="2428D946" w:rsidR="00E660E8" w:rsidRDefault="00E660E8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="3"/>
+          <w:numId w:val="11"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="568" w:hanging="284"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Music Video Detail Page</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0DABC701" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="004F4AB8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Music Video Detail Page</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t xml:space="preserve"> will show user&#x2019;s clicked </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Music Video Detail</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t xml:space="preserve">. </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="4D667FC2" w14:textId="08D27A55" w:rsidR="006F6CDC" w:rsidRDefault="004F4AB8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">In this page user can: </w:t>
+      </w:r>
+      
+      
+    </w:p>
+    <w:p w14:paraId="40AAAB13" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="004F4AB8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="36"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="851" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>play the music video</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="2D27AB80" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="004F4AB8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="36"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="851" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>pause the music video</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="5670F50E" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="004F4AB8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="36"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="851" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>change the volume</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="30E371C6" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="004F4AB8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="36"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="851" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>go to the next music video</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="762E6019" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="004F4AB8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="36"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="851" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>go to previous song</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="68832C92" w14:textId="6FB4625C" w:rsidR="004F4AB8" w:rsidRDefault="004F4AB8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="36"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="851" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>fullscreen the music video</w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:t xml:space="preserve">. </w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0B51C7D1" w14:textId="63C8C3E2" w:rsidR="004F4AB8" w:rsidRDefault="004F4AB8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">You must use </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>CDN</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> to store </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Music Video File</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1AB4977D" w14:textId="59A5F3E8" w:rsidR="004F4AB8" w:rsidRDefault="004F4AB8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">In this page, user can also click a button to redirect to the current </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Song Detail Page</w:t>
+      </w:r>
+      
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="72A012C2" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRPr="004F4AB8" w:rsidRDefault="006F6CDC" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="586AB6C9" w14:textId="182085D7" w:rsidR="00E660E8" w:rsidRDefault="00E660E8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="3"/>
+          <w:numId w:val="11"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="568" w:hanging="284"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:lastRenderedPageBreak/>
+        <w:t>Profile Page</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="420EA1BA" w14:textId="0CB950A7" w:rsidR="004F4AB8" w:rsidRDefault="004F4AB8" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Profile Page</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> will show the user&#x2019;s information such as </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>username</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">, </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>profile image</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">, and </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>theme preferences (Dark Mode or Light Mode)</w:t>
+      </w:r>
+      <w:r>
+        <w:t>. User can:</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="0CBF5877" w14:textId="579A24AE" w:rsidR="004F4AB8" w:rsidRDefault="004F4AB8" w:rsidP="000C1E6A">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="36"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="851" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">Change </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>username</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="30BBB8BB" w14:textId="1CD2C4D8" w:rsidR="004F4AB8" w:rsidRDefault="004F4AB8" w:rsidP="000C1E6A">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="36"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="851" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">Upload </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>profile image</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">. The </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>profile image</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> must be </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>compressed</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> with </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>maximum size of 1 MB</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> and </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>stored as blob</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">. You must also include a </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>progressive loading animation</w:t>
+      </w:r>
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="7D146D37" w14:textId="437FDBF1" w:rsidR="006F6CDC" w:rsidRDefault="006F6CDC" w:rsidP="000C1E6A">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="36"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="851" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">Change </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>theme preferences</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">. When user </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>changes the preferences,</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> it will also </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>change all other page&#x2019;s UI</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> according to the </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>current theme preferences</w:t>
+      </w:r>
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="09AA1B9E" w14:textId="55CCC5B8" w:rsidR="006F6CDC" w:rsidRDefault="006F6CDC" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="567"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">You must store </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>every profile</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>data</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> into </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>local storage</w:t>
+      </w:r>
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="228C5765" w14:textId="77777777" w:rsidR="006F6CDC" w:rsidRDefault="006F6CDC" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+    </w:p>
+    <w:p w14:paraId="7B49965D" w14:textId="63BCDD9E" w:rsidR="006F6CDC" w:rsidRPr="000C1E6A" w:rsidRDefault="006F6CDC" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:jc w:val="both"/>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Notes:</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="05A95C65" w14:textId="783BAD21" w:rsidR="006F6CDC" w:rsidRPr="000C1E6A" w:rsidRDefault="000C1E6A" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="37"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="284" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Before uploading your answer</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">, make sure you have </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>deleted the node modules.</w:t>
+      </w:r>
+      
+    </w:p>
+    <w:p w14:paraId="220D94A7" w14:textId="3DE87A6C" w:rsidR="000C1E6A" w:rsidRDefault="000C1E6A" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="37"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="284" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">You must create </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>internal documentation</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> (it is </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>inline comment</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> in your project that explains your code) and </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>external documentation</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> (using </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>docs</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> that explain </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>what features</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> you have made </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>in each page</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">, preferably using </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>screenshots</w:t>
+      </w:r>
+      <w:r>
+        <w:t>).</w:t>
+      </w:r>
+    </w:p>
+    <w:p w14:paraId="1D92F0A9" w14:textId="5E79400B" w:rsidR="000C1E6A" w:rsidRPr="004F4AB8" w:rsidRDefault="000C1E6A" w:rsidP="006F6CDC">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:numPr>
+          <w:ilvl w:val="0"/>
+          <w:numId w:val="37"/>
+        </w:numPr>
+        <w:spacing w:line="360" w:lineRule="auto"/>
+        <w:ind w:left="284" w:hanging="284"/>
+        <w:jc w:val="both"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>Zip</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>everything</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> in your </w:t>
+      </w:r>
+      
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>vue project</w:t>
+      </w:r>
+      
+      
+      <w:r>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>excludes node modules</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> and the </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:bCs/>
+        </w:rPr>
+        <w:t>external documentation</w:t>
+      </w:r>
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:sectPr w:rsidR="000C1E6A" w:rsidRPr="004F4AB8" w:rsidSect="00DF2179">
+      <w:headerReference w:type="default" r:id="rId9"/>
+      <w:footerReference w:type="default" r:id="rId10"/>
+      <w:headerReference w:type="first" r:id="rId11"/>
+      <w:footerReference w:type="first" r:id="rId12"/>
+      <w:pgSz w:w="11907" w:h="16839" w:code="9"/>
+      <w:pgMar w:top="1440" w:right="1008" w:bottom="1440" w:left="1008" w:header="720" w:footer="720" w:gutter="0"/>
+      <w:cols w:space="720"/>
+      <w:docGrid w:linePitch="360"/>
+    </w:sectPr>
+  </w:body>
+</w:document>

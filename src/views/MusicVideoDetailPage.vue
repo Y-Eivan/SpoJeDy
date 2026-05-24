@@ -17,13 +17,20 @@
         ref="videoWrapper"
         class="border-2 border-gray-300 dark:border-gray-600 rounded-2xl overflow-hidden bg-black relative aspect-video"
       >
-        <div ref="ytMount" class="absolute inset-0"></div>
-        <div
-          v-if="!playerReady"
-          class="absolute inset-0 flex items-center justify-center text-white text-sm"
-        >
-          Loading video…
-        </div>
+        <video
+          ref="video"
+          :src="mv.videoUrl"
+          :poster="mv.thumbnail"
+          class="absolute inset-0 w-full h-full object-contain bg-black"
+          preload="metadata"
+          playsinline
+          @timeupdate="onTimeUpdate"
+          @loadedmetadata="onLoadedMetadata"
+          @play="isPlayingVideo = true"
+          @pause="isPlayingVideo = false"
+          @ended="next"
+          @click="togglePlay"
+        ></video>
       </div>
 
       <div class="flex items-center gap-3 mt-3 px-1">
@@ -122,7 +129,6 @@
 
 <script>
 import { findMusicVideo, musicVideos } from '../data/media'
-import { loadYouTubeAPI } from '../utils/youtube'
 
 export default {
   name: 'MusicVideoDetailPage',
@@ -135,10 +141,7 @@ export default {
       isPlayingVideo: false,
       currentTime: 0,
       duration: 0,
-      videoVolume: 0.7,
-      player: null,
-      playerReady: false,
-      pollTimer: null
+      videoVolume: 0.7
     }
   },
   computed: {
@@ -147,83 +150,54 @@ export default {
     }
   },
   watch: {
-    id(newId) {
-      const mv = findMusicVideo(newId)
-      if (mv && this.player && this.playerReady && mv.youtubeId) {
-        this.isPlayingVideo = false
-        this.currentTime = 0
-        this.player.loadVideoById(mv.youtubeId)
-      }
-    }
-  },
-  async mounted() {
-    this.$emit('pause-audio')
-    window.addEventListener('keydown', this.onKey)
-    try {
-      const YT = await loadYouTubeAPI()
-      if (!this.mv || !this.mv.youtubeId) return
-      this.player = new YT.Player(this.$refs.ytMount, {
-        height: '100%',
-        width: '100%',
-        videoId: this.mv.youtubeId,
-        playerVars: {
-          autoplay: 0,
-          controls: 0,
-          modestbranding: 1,
-          rel: 0,
-          playsinline: 1,
-          disablekb: 1
-        },
-        events: {
-          onReady: this.onReady,
-          onStateChange: this.onStateChange
+    id() {
+      // Source changes reactively via :src; reset playback state.
+      this.isPlayingVideo = false
+      this.currentTime = 0
+      this.duration = 0
+      this.$nextTick(() => {
+        if (this.$refs.video) {
+          this.$refs.video.load()
         }
       })
-    } catch (e) {
-      console.error('Failed to load YouTube player', e)
+    }
+  },
+  mounted() {
+    // Pause the global audio player so they don't fight each other.
+    this.$emit('pause-audio')
+    window.addEventListener('keydown', this.onKey)
+    if (this.$refs.video) {
+      this.$refs.video.volume = this.videoVolume
     }
   },
   beforeUnmount() {
     window.removeEventListener('keydown', this.onKey)
-    if (this.pollTimer) clearInterval(this.pollTimer)
-    if (this.player && this.player.destroy) this.player.destroy()
+    if (this.$refs.video) {
+      this.$refs.video.pause()
+    }
   },
   methods: {
-    onReady() {
-      this.playerReady = true
-      if (this.player.setVolume) this.player.setVolume(Math.round(this.videoVolume * 100))
-      this.pollTimer = setInterval(this.poll, 250)
+    onTimeUpdate() {
+      const v = this.$refs.video
+      if (v) this.currentTime = v.currentTime || 0
     },
-    onStateChange(e) {
-      const YT = window.YT
-      if (!YT) return
-      if (e.data === YT.PlayerState.PLAYING) this.isPlayingVideo = true
-      else if (e.data === YT.PlayerState.PAUSED) this.isPlayingVideo = false
-      else if (e.data === YT.PlayerState.ENDED) {
-        this.isPlayingVideo = false
-        this.next()
-      }
-    },
-    poll() {
-      if (!this.player || !this.player.getDuration) return
-      this.duration = this.player.getDuration() || 0
-      this.currentTime = this.player.getCurrentTime() || 0
+    onLoadedMetadata() {
+      const v = this.$refs.video
+      if (v) this.duration = v.duration || 0
     },
     togglePlay() {
-      if (!this.player || !this.playerReady) return
-      const YT = window.YT
-      const state = this.player.getPlayerState()
-      if (state === YT.PlayerState.PLAYING) this.player.pauseVideo()
-      else this.player.playVideo()
+      const v = this.$refs.video
+      if (!v) return
+      if (v.paused) v.play().catch(() => {})
+      else v.pause()
     },
     onSeek(value) {
-      if (this.player && this.playerReady) this.player.seekTo(parseFloat(value), true)
+      const v = this.$refs.video
+      if (v && v.duration > 0) v.currentTime = parseFloat(value)
     },
-    onVolumeChange(v) {
-      this.videoVolume = parseFloat(v)
-      if (this.player && this.playerReady && this.player.setVolume) {
-        this.player.setVolume(Math.round(this.videoVolume * 100))
-      }
+    onVolumeChange(val) {
+      this.videoVolume = parseFloat(val)
+      if (this.$refs.video) this.$refs.video.volume = this.videoVolume
     },
     next() {
       const i = musicVideos.findIndex(x => x.id === this.mv.id)

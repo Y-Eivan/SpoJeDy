@@ -1,19 +1,28 @@
 const COVERS = {
-  whereIsMyHusband: 'https://upload.wikimedia.org/wikipedia/en/0/09/Where_Is_My_Husband%21_-_Raye.png',
-  howIGet: 'https://i.scdn.co/image/ab67616d0000b273fd23708303dca437cde66dd7',
-  sprinter: 'https://upload.wikimedia.org/wikipedia/en/a/a0/Dave_and_Central_Cee_-_Sprinter.png',
-  stateside: 'https://upload.wikimedia.org/wikipedia/en/1/18/Pinkpatheress_-_Stateside_Single_Artwork.jpeg',
-  tickingAway: 'https://i.scdn.co/image/ab67616d0000b2735eb2199eddeefec51dd17a0a',
-  toughLuck: 'https://upload.wikimedia.org/wikipedia/en/2/2b/Laufey_-_A_Matter_of_Time.png'
+  whereIsMyHusband: 'https://ik.imagekit.io/yeivanr/imagescobaslt/raye.jpg',
+  howIGet: 'https://ik.imagekit.io/yeivanr/imagescobaslt/howiget.jpg',
+  sprinter: 'https://ik.imagekit.io/yeivanr/imagescobaslt/cenralcee.png',
+  stateside: 'https://ik.imagekit.io/yeivanr/imagescobaslt/stateside%20pink.jpg',
+  tickingAway: 'https://ik.imagekit.io/yeivanr/imagescobaslt/tickingaway.jpg',
+  toughLuck: 'https://ik.imagekit.io/yeivanr/imagescobaslt/toughluck.jpg'
 }
 
-const YOUTUBE = {
-  whereIsMyHusband: 'rK5TyISxZ_M',
-  howIGet: 'ZtRNT-JYg1w',
-  sprinter: 'pSY3i5XHHXo',
-  stateside: 'lIxQe1R5hs0',
-  tickingAway: 'CdZN8PI3MqM',
-  toughLuck: '9q71ywEqJjA'
+const AUDIO = {
+  whereIsMyHusband: 'https://ik.imagekit.io/yeivanr/cobalt/RAYE%20-%20WHERE%20IS%20MY%20HUSBAND!%20(Official%20Music%20Video)%20-%20RAYE.mp3',
+  howIGet: 'https://ik.imagekit.io/yeivanr/cobalt/Laufey%20-%20How%20I%20Get%20(Official%20Lyric%20Video%20With%20Chords)%20-%20Laufey.mp3',
+  sprinter: 'https://ik.imagekit.io/yeivanr/cobalt/Central%20Cee%20x%20Dave%20-%20Sprinter%20_Music%20Video_.mp3',
+  stateside: 'https://ik.imagekit.io/yeivanr/cobalt/PinkPantheress%20-%20Stateside%20Zara%20Larsson%20(Official%20Video).mp3',
+  tickingAway: 'https://ik.imagekit.io/yeivanr/cobalt/Ticking%20Away%20ft.%20Grabbitz%20&%20bbno$%20(Official%20Music%20Video)%20VALORANT%20Champions%202023%20Anthem.mp3',
+  toughLuck: 'https://ik.imagekit.io/yeivanr/cobalt/Laufey%20-%20Tough%20Luck%20(Official%20Lyric%20Video%20with%20Chords).mp3'
+}
+
+const VIDEO = {
+  whereIsMyHusband: 'https://ik.imagekit.io/yeivanr/cobalt/RAYE%20-%20WHERE%20IS%20MY%20HUSBAND!%20(Official%20Music%20Video)%20-%20RAYE%20(360p,%20h264).mp4',
+  howIGet: 'https://ik.imagekit.io/yeivanr/cobalt/Laufey%20-%20How%20I%20Get%20(Official%20Lyric%20Video%20With%20Chords)%20-%20Laufey%20(360p,%20h264).mp4',
+  sprinter: 'https://ik.imagekit.io/yeivanr/cobalt/Central%20Cee%20x%20Dave%20-%20Sprinter%20_Music%20Video_.mp4',
+  stateside: 'https://ik.imagekit.io/yeivanr/cobalt/PinkPantheress%20-%20Stateside%20Zara%20Larsson%20(Official%20Video).mp4',
+  tickingAway: 'https://ik.imagekit.io/yeivanr/cobalt/Ticking%20Away%20ft.%20Grabbitz%20&%20bbno$%20(Official%20Music%20Video)%20VALORANT%20Champions%202023%20Anthem.mp4',
+  toughLuck: 'https://ik.imagekit.io/yeivanr/cobalt/Laufey%20-%20Tough%20Luck%20(Official%20Lyric%20Video%20with%20Chords).mp4'
 }
 
 export const songs = [
@@ -23,7 +32,7 @@ export const songs = [
     artist: 'RAYE',
     genre: 'R&B / Pop',
     cover: COVERS.whereIsMyHusband,
-    youtubeId: YOUTUBE.whereIsMyHusband,
+    audioUrl: AUDIO.whereIsMyHusband,
     duration: '3:42',
     musicVideoId: 1,
     category: 'repeat'
@@ -34,7 +43,7 @@ export const songs = [
     artist: 'Laufey',
     genre: 'Jazz Pop',
     cover: COVERS.howIGet,
-    youtubeId: YOUTUBE.howIGet,
+    audioUrl: AUDIO.howIGet,
     duration: '4:10',
     musicVideoId: 2,
     category: 'repeat'
@@ -45,7 +54,7 @@ export const songs = [
     artist: 'Dave & Central Cee',
     genre: 'UK Hip-Hop',
     cover: COVERS.sprinter,
-    youtubeId: YOUTUBE.sprinter,
+    audioUrl: AUDIO.sprinter,
     duration: '3:48',
     musicVideoId: 3,
     category: 'repeat'
@@ -56,7 +65,7 @@ export const songs = [
     artist: 'PinkPantheress & Zara Larsson',
     genre: 'Bedroom Pop',
     cover: COVERS.stateside,
-    youtubeId: YOUTUBE.stateside,
+    audioUrl: AUDIO.stateside,
     duration: '2:18',
     musicVideoId: 4,
     category: 'repeat'
@@ -67,7 +76,7 @@ export const songs = [
     artist: 'Grabbitz, Forts & Riot Music Team',
     genre: 'Electronic / Soundtrack',
     cover: COVERS.tickingAway,
-    youtubeId: YOUTUBE.tickingAway,
+    audioUrl: AUDIO.tickingAway,
     duration: '3:21',
     musicVideoId: 5,
     category: 'pop'
@@ -78,7 +87,7 @@ export const songs = [
     artist: 'Laufey',
     genre: 'Jazz Pop',
     cover: COVERS.toughLuck,
-    youtubeId: YOUTUBE.toughLuck,
+    audioUrl: AUDIO.toughLuck,
     duration: '2:54',
     musicVideoId: 6,
     category: 'pop'
@@ -92,7 +101,7 @@ export const musicVideos = [
     artist: 'RAYE',
     genre: 'R&B / Pop',
     thumbnail: COVERS.whereIsMyHusband,
-    youtubeId: YOUTUBE.whereIsMyHusband,
+    videoUrl: VIDEO.whereIsMyHusband,
     duration: '4:01',
     songId: 1,
     category: 'repeat'
@@ -103,7 +112,7 @@ export const musicVideos = [
     artist: 'Laufey',
     genre: 'Jazz Pop',
     thumbnail: COVERS.howIGet,
-    youtubeId: YOUTUBE.howIGet,
+    videoUrl: VIDEO.howIGet,
     duration: '4:22',
     songId: 2,
     category: 'repeat'
@@ -114,7 +123,7 @@ export const musicVideos = [
     artist: 'Dave & Central Cee',
     genre: 'UK Hip-Hop',
     thumbnail: COVERS.sprinter,
-    youtubeId: YOUTUBE.sprinter,
+    videoUrl: VIDEO.sprinter,
     duration: '4:08',
     songId: 3,
     category: 'repeat'
@@ -125,7 +134,7 @@ export const musicVideos = [
     artist: 'PinkPantheress & Zara Larsson',
     genre: 'Bedroom Pop',
     thumbnail: COVERS.stateside,
-    youtubeId: YOUTUBE.stateside,
+    videoUrl: VIDEO.stateside,
     duration: '2:30',
     songId: 4,
     category: 'repeat'
@@ -136,7 +145,7 @@ export const musicVideos = [
     artist: 'Grabbitz, Forts & Riot Music Team',
     genre: 'Electronic / Soundtrack',
     thumbnail: COVERS.tickingAway,
-    youtubeId: YOUTUBE.tickingAway,
+    videoUrl: VIDEO.tickingAway,
     duration: '3:35',
     songId: 5,
     category: 'pop'
@@ -147,7 +156,7 @@ export const musicVideos = [
     artist: 'Laufey',
     genre: 'Jazz Pop',
     thumbnail: COVERS.toughLuck,
-    youtubeId: YOUTUBE.toughLuck,
+    videoUrl: VIDEO.toughLuck,
     duration: '3:05',
     songId: 6,
     category: 'pop'

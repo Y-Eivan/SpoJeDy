@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+  <Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/attachedTemplate" Target="file:///C:\DOCUME~1\MASTER~1\LOCALS~1\Temp\Rar$DI23.500\20120510%20FM-BINUS-AA-FPT-66-R%20Template%20Soal.dotx" TargetMode="External"/>
+</Relationships>
