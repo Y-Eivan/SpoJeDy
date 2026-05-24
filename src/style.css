@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  font-family: 'Poppins', system-ui, sans-serif;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.media-row {
+  scrollbar-width: thin;
+}
+.media-row::-webkit-scrollbar {
+  height: 8px;
+}
+.media-row::-webkit-scrollbar-thumb {
+  background: #F97316;
+  border-radius: 4px;
+}
+
+.img-loading {
+  filter: blur(8px);
+  transition: filter 0.4s ease;
+}
+.img-loaded {
+  filter: blur(0);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.25s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
