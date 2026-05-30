@@ -10,6 +10,8 @@
             :current-song="currentSong"
             :is-playing="isPlaying"
             :volume="volume"
+            :muted="muted"
+            :loop="loop"
             :current-time="currentTime"
             :duration="duration"
             @play-song="playSong"
@@ -19,6 +21,8 @@
             @set-volume="setVolume"
             @seek="seekTo"
             @pause-audio="pauseAudio"
+            @toggle-mute="toggleMute"
+            @toggle-loop="toggleLoop"
           />
         </transition>
       </router-view>
@@ -29,12 +33,16 @@
       :song="currentSong"
       :is-playing="isPlaying"
       :volume="volume"
+      :muted="muted"
+      :loop="loop"
       :progress="progress"
       @toggle-play="togglePlay"
       @next="nextSong"
       @prev="prevSong"
       @set-volume="setVolume"
       @seek="seekTo"
+      @toggle-mute="toggleMute"
+      @toggle-loop="toggleLoop"
     />
 
     <!-- Global HTML5 audio element. Streamed from ImageKit CDN. -->
@@ -67,6 +75,8 @@ export default {
       currentSong: null,
       isPlaying: false,
       volume: 0.7,
+      muted: false,
+      loop: false,
       progress: 0,
       currentTime: 0,
       duration: 0
@@ -131,6 +141,8 @@ export default {
         if (!a) return
         a.load()
         a.volume = this.volume
+        a.muted = this.muted
+        a.loop = this.loop
         a.play().catch(() => {
           // Browsers block autoplay without user gesture; user can press play manually.
         })
@@ -164,6 +176,14 @@ export default {
     setVolume(v) {
       this.volume = v
       if (this.$refs.audio) this.$refs.audio.volume = v
+    },
+    toggleMute() {
+      this.muted = !this.muted
+      if (this.$refs.audio) this.$refs.audio.muted = this.muted
+    },
+    toggleLoop() {
+      this.loop = !this.loop
+      if (this.$refs.audio) this.$refs.audio.loop = this.loop
     },
     seekTo(ratio) {
       const a = this.$refs.audio
