@@ -1,3 +1,4 @@
+//Variables for songs
 const COVERS = {
   whereIsMyHusband: 'https://ik.imagekit.io/yeivanr/imagescobaslt/raye.jpg',
   howIGet: 'https://ik.imagekit.io/yeivanr/imagescobaslt/howiget.jpg',
@@ -25,6 +26,7 @@ const VIDEO = {
   toughLuck: 'https://ik.imagekit.io/yeivanr/cobalt/Laufey%20-%20Tough%20Luck%20(Official%20Lyric%20Video%20with%20Chords).mp4'
 }
 
+//Songs
 export const songs = [
   {
     id: 1,
@@ -93,6 +95,7 @@ export const songs = [
     category: 'pop'
   }
 ]
+
 
 export const musicVideos = [
   {
@@ -163,8 +166,13 @@ export const musicVideos = [
   }
 ]
 
+
+//look up a song/mv from the array with ID
+//id arrives as strings, so convert string -> int and then finds object with the int id)
+//returns the song with its attributes (title, artist, genre, etc..)
 export function findSong(id) {
   return songs.find(s => s.id === Number(id))
+  
 }
 
 export function findMusicVideo(id) {

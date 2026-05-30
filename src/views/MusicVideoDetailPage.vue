@@ -1,5 +1,7 @@
 <template>
   <div class="max-w-7xl mx-auto px-6 py-6">
+
+    <!-- back link to the music videos list -->
     <router-link
       to="/music-videos"
       class="inline-flex items-center gap-2 text-brand text-sm hover:underline"
@@ -13,6 +15,7 @@
     <div v-if="mv" class="mt-3">
       <h1 class="text-2xl font-bold mb-4">Music Video Detail</h1>
 
+      <!-- video player — source and poster come from CDN -->
       <div
         ref="videoWrapper"
         class="border-2 border-gray-300 dark:border-gray-600 rounded-2xl overflow-hidden bg-black relative aspect-video"
@@ -33,6 +36,7 @@
         ></video>
       </div>
 
+      <!-- seek bar with current time and total duration -->
       <div class="flex items-center gap-3 mt-3 px-1">
         <span class="text-sm text-gray-500 dark:text-gray-400 w-12">{{ formatTime(currentTime) }}</span>
         <input
@@ -47,13 +51,17 @@
         <span class="text-sm text-gray-500 dark:text-gray-400 w-12 text-right">{{ formatTime(duration) }}</span>
       </div>
 
+      <!-- playback controls row -->
       <div class="mt-3 border-2 border-gray-300 dark:border-gray-600 rounded-2xl p-4 flex items-center justify-between">
+
+        <!-- left side: prev, play/pause, next, loop, time display -->
         <div class="flex items-center gap-4">
           <button @click="prev" class="p-2 hover:text-brand transition" aria-label="Previous">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
               <path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/>
             </svg>
           </button>
+          <!-- play/pause icon swaps based on isPlayingVideo -->
           <button
             @click="togglePlay"
             class="w-10 h-10 rounded-full border-2 border-brand flex items-center justify-center text-brand hover:bg-brand hover:text-white transition"
@@ -72,6 +80,7 @@
             </svg>
           </button>
 
+          <!-- loop toggle — turns brand color when active -->
           <button
             @click="toggleVideoLoop"
             class="p-2 transition"
@@ -88,6 +97,7 @@
           </span>
         </div>
 
+        <!-- right side: fullscreen, mute, volume -->
         <div class="flex items-center gap-4">
           <button
             @click="goFullscreen"
@@ -98,6 +108,7 @@
               <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/>
             </svg>
           </button>
+          <!-- mute toggle — red icon when muted -->
           <button
             @click="toggleVideoMute"
             class="p-1 hover:text-brand transition flex-shrink-0"
@@ -122,6 +133,7 @@
         </div>
       </div>
 
+      <!-- video title, artist and link to the matching song -->
       <div class="mt-4 flex items-center justify-between gap-4">
         <div>
           <h2 class="text-xl font-bold">{{ mv.title }}</h2>
@@ -143,6 +155,7 @@
       </div>
     </div>
 
+    <!-- fallback if the id doesn't match any video -->
     <div v-else class="text-center py-20">
       <p class="text-gray-500">Music video not found.</p>
     </div>
@@ -155,7 +168,7 @@ import { findMusicVideo, musicVideos } from '../data/media'
 export default {
   name: 'MusicVideoDetailPage',
   props: {
-    id: { type: [String, Number], required: true }
+    id: { type: [String, Number], required: true } //comes from the url param via router
   },
   emits: ['pause-audio'],
   data() {
@@ -170,12 +183,12 @@ export default {
   },
   computed: {
     mv() {
-      return findMusicVideo(this.id)
+      return findMusicVideo(this.id) //look up the video object by id
     }
   },
   watch: {
     id() {
-      // Source changes reactively via :src; reset playback state.
+      //when navigating to a different video, reset playback state
       this.isPlayingVideo = false
       this.currentTime = 0
       this.duration = 0
@@ -187,8 +200,7 @@ export default {
     }
   },
   mounted() {
-    // Pause the global audio player so they don't fight each other.
-    this.$emit('pause-audio')
+    this.$emit('pause-audio') //stop the global audio so it doesn't play over the video
     window.addEventListener('keydown', this.onKey)
     if (this.$refs.video) {
       this.$refs.video.volume = this.videoVolume
@@ -197,17 +209,17 @@ export default {
   beforeUnmount() {
     window.removeEventListener('keydown', this.onKey)
     if (this.$refs.video) {
-      this.$refs.video.pause()
+      this.$refs.video.pause() //stop video when leaving the page
     }
   },
   methods: {
     onTimeUpdate() {
       const v = this.$refs.video
-      if (v) this.currentTime = v.currentTime || 0
+      if (v) this.currentTime = v.currentTime || 0 //sync current time for the seek bar
     },
     onLoadedMetadata() {
       const v = this.$refs.video
-      if (v) this.duration = v.duration || 0
+      if (v) this.duration = v.duration || 0 //get total duration once video is loaded
     },
     togglePlay() {
       const v = this.$refs.video
@@ -217,23 +229,26 @@ export default {
     },
     onSeek(value) {
       const v = this.$refs.video
-      if (v && v.duration > 0) v.currentTime = parseFloat(value)
+      if (v && v.duration > 0) v.currentTime = parseFloat(value) //jump to the clicked position
     },
     onVolumeChange(val) {
       this.videoVolume = parseFloat(val)
       if (this.$refs.video) this.$refs.video.volume = this.videoVolume
     },
     next() {
+      //wrap around to first video if at the end of the list
       const i = musicVideos.findIndex(x => x.id === this.mv.id)
       const nextMV = musicVideos[(i + 1) % musicVideos.length]
       this.$router.push({ name: 'mv-detail', params: { id: nextMV.id } })
     },
     prev() {
+      //wrap around to last video if at the start of the list
       const i = musicVideos.findIndex(x => x.id === this.mv.id)
       const prevMV = musicVideos[(i - 1 + musicVideos.length) % musicVideos.length]
       this.$router.push({ name: 'mv-detail', params: { id: prevMV.id } })
     },
     goFullscreen() {
+      //try each browser's fullscreen api variant
       const wrap = this.$refs.videoWrapper
       if (!wrap) return
       if (wrap.requestFullscreen) wrap.requestFullscreen()
@@ -241,15 +256,15 @@ export default {
       else if (wrap.msRequestFullscreen) wrap.msRequestFullscreen()
     },
     goToSong() {
-      this.$router.push({ name: 'song-detail', params: { id: this.mv.songId } })
+      this.$router.push({ name: 'song-detail', params: { id: this.mv.songId } }) //navigate to the matching song
     },
     onKey(e) {
-      if (e.target.tagName === 'INPUT') return
+      if (e.target.tagName === 'INPUT') return //ignore keypresses inside input fields
       if (e.key === ' ') {
         e.preventDefault()
-        this.togglePlay()
+        this.togglePlay() //space = play/pause
       } else if (e.key === 'f' || e.key === 'F') {
-        this.goFullscreen()
+        this.goFullscreen() //f = fullscreen
       }
     },
     toggleVideoMute() {
@@ -264,7 +279,7 @@ export default {
       if (!sec || isNaN(sec)) return '0:00'
       const m = Math.floor(sec / 60)
       const s = Math.floor(sec % 60).toString().padStart(2, '0')
-      return `${m}:${s}`
+      return `${m}:${s}` //converts seconds into m:ss format
     }
   }
 }

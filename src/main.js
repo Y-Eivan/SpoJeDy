@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import './style.css'
 
+//theme changing
 const savedTheme = localStorage.getItem('spojedy-theme') || 'light'
 if (savedTheme === 'dark') {
   document.documentElement.classList.add('dark')

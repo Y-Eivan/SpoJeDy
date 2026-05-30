@@ -1,5 +1,7 @@
 <template>
   <div class="max-w-7xl mx-auto px-6 py-6">
+
+    <!-- back link to homepage -->
     <router-link to="/" class="inline-flex items-center gap-2 text-brand text-sm hover:underline">
       <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
         <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/>
@@ -11,6 +13,8 @@
       <h1 class="text-2xl font-bold mb-4">Song Detail</h1>
 
       <div class="flex flex-col lg:flex-row gap-6">
+
+        <!-- album art — clicking it opens the fullscreen zoom viewer -->
         <div
           @click="openFullscreen"
           class="w-full lg:w-96 aspect-square rounded-2xl overflow-hidden flex-shrink-0 shadow-md cursor-zoom-in group relative"
@@ -22,6 +26,7 @@
             :class="coverLoaded ? 'img-loaded' : 'img-loading'"
             @load="coverLoaded = true"
           />
+          <!-- zoom hint overlay on hover -->
           <div class="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors flex items-center justify-center opacity-0 group-hover:opacity-100">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 8v6M8 11h6M17 11a6 6 0 11-12 0 6 6 0 0112 0z" />
@@ -30,12 +35,17 @@
         </div>
 
         <div class="flex-1">
+
+          <!-- song title, artist, genre, duration -->
           <h2 class="text-3xl font-bold">{{ song.title }}</h2>
           <p class="text-gray-500 dark:text-gray-400 mt-1">
             {{ song.artist }} · {{ song.genre }} · {{ song.duration }}
           </p>
 
+          <!-- audio controls box -->
           <div class="mt-6 border-2 border-gray-300 dark:border-gray-600 rounded-2xl p-6 bg-gray-50 dark:bg-gray-800">
+
+            <!-- seek bar with elapsed and total time -->
             <div class="flex items-center gap-3 mb-6">
               <span class="text-sm text-gray-500 dark:text-gray-400 w-12">{{ formatTime(currentTime) }}</span>
               <input
@@ -50,12 +60,14 @@
               <span class="text-sm text-gray-500 dark:text-gray-400 w-12 text-right">{{ formatTime(duration) }}</span>
             </div>
 
+            <!-- prev, play/pause, next, loop buttons -->
             <div class="flex items-center justify-center gap-6">
               <button @click="prev" class="p-2 hover:text-brand transition">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/>
                 </svg>
               </button>
+              <!-- play/pause icon swaps based on whether this song is currently playing -->
               <button
                 @click="togglePlay"
                 class="w-16 h-16 rounded-full border-2 border-brand flex items-center justify-center text-brand hover:bg-brand hover:text-white transition"
@@ -72,6 +84,7 @@
                   <path d="M6 18l8.5-6L6 6v12zM16 6h2v12h-2z"/>
                 </svg>
               </button>
+              <!-- loop toggle — turns brand color when active -->
               <button
                 @click="$emit('toggle-loop')"
                 class="p-2 transition"
@@ -84,7 +97,9 @@
               </button>
             </div>
 
+            <!-- mute toggle and volume slider -->
             <div class="flex items-center gap-3 mt-6 justify-center">
+              <!-- red icon when muted, normal when not -->
               <button
                 @click="$emit('toggle-mute')"
                 class="p-1 hover:text-brand transition flex-shrink-0"
@@ -113,6 +128,7 @@
             </p>
           </div>
 
+          <!-- button to go to the matching music video -->
           <button
             v-if="song.musicVideoId"
             @click="goToMusicVideo"
@@ -127,11 +143,12 @@
       </div>
     </div>
 
+    <!-- fallback if the id doesn't match any song -->
     <div v-else class="text-center py-20">
       <p class="text-gray-500">Song not found.</p>
     </div>
 
-    <!-- Fullscreen cover overlay -->
+    <!-- fullscreen cover overlay — shown when user clicks the album art -->
     <div
       v-if="fullscreen && song"
       class="fixed inset-0 z-[100] bg-black/95 flex items-center justify-center overflow-hidden select-none"
@@ -141,6 +158,7 @@
       @mouseup="onPanEnd"
       @mouseleave="onPanEnd"
     >
+      <!-- the zoomed/panned image -->
       <img
         :src="song.cover"
         :alt="song.title"
@@ -152,7 +170,7 @@
         draggable="false"
       />
 
-      <!-- Top-right controls -->
+      <!-- zoom in, zoom out, and close buttons -->
       <div class="absolute top-4 right-4 flex items-center gap-2">
         <button
           @click.stop="zoomOut"
@@ -183,7 +201,7 @@
         </button>
       </div>
 
-      <!-- Zoom indicator -->
+      <!-- zoom level hint at the bottom -->
       <div class="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white/10 text-white text-xs px-3 py-1 rounded-full">
         {{ Math.round(zoom * 100) }}% · Scroll to zoom · Drag to pan · Esc to exit
       </div>
@@ -197,8 +215,8 @@ import { findSong } from '../data/media'
 export default {
   name: 'SongDetailPage',
   props: {
-    id: { type: [String, Number], required: true },
-    currentSong: { type: Object, default: null },
+    id: { type: [String, Number], required: true }, //from the url param
+    currentSong: { type: Object, default: null }, //what's currently playing in App
     isPlaying: { type: Boolean, default: false },
     volume: { type: Number, default: 0.7 },
     muted: { type: Boolean, default: false },
@@ -209,22 +227,22 @@ export default {
   emits: ['play-song', 'toggle-play', 'next', 'prev', 'set-volume', 'seek', 'toggle-mute', 'toggle-loop'],
   data() {
     return {
-      coverLoaded: false,
-      fullscreen: false,
-      zoom: 1,
-      panX: 0,
-      panY: 0,
-      panning: false,
+      coverLoaded: false, //triggers blur-up once cover image loads
+      fullscreen: false, //controls visibility of the fullscreen overlay
+      zoom: 1, //current zoom level in fullscreen
+      panX: 0, //horizontal pan offset in fullscreen
+      panY: 0, //vertical pan offset in fullscreen
+      panning: false, //true while the user is dragging
       panStartX: 0,
       panStartY: 0
     }
   },
   computed: {
     song() {
-      return findSong(this.id)
+      return findSong(this.id) //look up the song object by id
     },
     isLocalPlaying() {
-      return this.isPlaying && this.currentSong && this.song && this.currentSong.id === this.song.id
+      return this.isPlaying && this.currentSong && this.song && this.currentSong.id === this.song.id //true only if this exact song is playing
     },
     localVolume() {
       return this.volume
@@ -232,8 +250,9 @@ export default {
   },
   watch: {
     id: {
-      immediate: true,
+      immediate: true, //runs on first load too, not just on change
       handler(newId) {
+        //auto-play this song when the page loads if it's not already playing
         const s = findSong(newId)
         if (s && (!this.currentSong || this.currentSong.id !== s.id)) {
           this.$emit('play-song', s)
@@ -249,9 +268,10 @@ export default {
       if (!sec || isNaN(sec)) return '0:00'
       const m = Math.floor(sec / 60)
       const s = Math.floor(sec % 60).toString().padStart(2, '0')
-      return `${m}:${s}`
+      return `${m}:${s}` //converts seconds to m:ss
     },
     togglePlay() {
+      //if this isn't the current song yet, start playing it first
       if (!this.currentSong || this.currentSong.id !== this.song.id) {
         this.$emit('play-song', this.song)
       } else {
@@ -262,6 +282,7 @@ export default {
     prev() { this.$emit('prev') },
     onVolumeChange(v) { this.$emit('set-volume', parseFloat(v)) },
     onSeek(value) {
+      //convert the raw slider value to a 0-1 ratio before emitting
       if (this.duration > 0) {
         this.$emit('seek', parseFloat(value) / this.duration)
       }
@@ -278,7 +299,7 @@ export default {
       }
       if (e.key === ' ' && e.target === document.body) {
         e.preventDefault()
-        this.togglePlay()
+        this.togglePlay() //space = play/pause
       }
     },
     openFullscreen() {
@@ -286,28 +307,29 @@ export default {
       this.zoom = 1
       this.panX = 0
       this.panY = 0
-      document.body.style.overflow = 'hidden'
+      document.body.style.overflow = 'hidden' //prevent background scrolling
     },
     closeFullscreen() {
       this.fullscreen = false
       document.body.style.overflow = ''
     },
     zoomIn() {
-      this.zoom = Math.min(5, this.zoom + 0.25)
+      this.zoom = Math.min(5, this.zoom + 0.25) //cap at 5x
     },
     zoomOut() {
-      const next = Math.max(0.5, this.zoom - 0.25)
+      const next = Math.max(0.5, this.zoom - 0.25) //floor at 0.5x
       this.zoom = next
-      if (next <= 1) { this.panX = 0; this.panY = 0 }
+      if (next <= 1) { this.panX = 0; this.panY = 0 } //reset pan when back to normal size
     },
     onWheel(e) {
+      //scroll up = zoom in, scroll down = zoom out
       const delta = e.deltaY < 0 ? 0.15 : -0.15
       const next = Math.min(5, Math.max(0.5, this.zoom + delta))
       this.zoom = next
       if (next <= 1) { this.panX = 0; this.panY = 0 }
     },
     onPanStart(e) {
-      if (this.zoom <= 1) return
+      if (this.zoom <= 1) return //only allow panning when zoomed in
       this.panning = true
       this.panStartX = e.clientX - this.panX
       this.panStartY = e.clientY - this.panY

@@ -2,7 +2,10 @@
   <div class="max-w-3xl mx-auto px-6 py-6">
     <h1 class="text-2xl font-bold mb-4">Profile</h1>
 
+    <!-- profile image upload section -->
     <div class="border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-2xl p-8 flex flex-col items-center">
+
+      <!-- shows the image if one is saved, otherwise shows placeholder text -->
       <div class="w-36 h-36 rounded-full border-2 border-dashed border-gray-400 dark:border-gray-500 overflow-hidden flex items-center justify-center bg-gray-100 dark:bg-gray-700 relative">
         <img
           v-if="profileImage"
@@ -15,6 +18,7 @@
         <span v-else class="text-gray-500 text-sm text-center px-4">Profile Image</span>
       </div>
 
+      <!-- label wraps the hidden file input so clicking the button opens the file picker -->
       <label class="mt-4 px-6 py-2 border-2 border-gray-300 dark:border-gray-600 rounded-xl cursor-pointer hover:border-brand hover:text-brand transition">
         <span>{{ uploading ? 'Compressing...' : 'Upload Image' }}</span>
         <input
@@ -26,6 +30,7 @@
       </label>
     </div>
 
+    <!-- progress bar — only visible while uploading/compressing -->
     <div v-if="uploadProgress > 0 || uploading" class="mt-2 flex items-center gap-3">
       <div class="flex-1 h-2 bg-gray-200 dark:bg-gray-700 rounded overflow-hidden">
         <div class="h-full bg-brand transition-all" :style="{ width: uploadProgress + '%' }"></div>
@@ -33,6 +38,7 @@
       <span class="text-sm text-brand w-12 text-right">{{ uploadProgress }}%</span>
     </div>
 
+    <!-- username input and save button -->
     <div class="mt-8">
       <h2 class="text-lg font-semibold mb-3">Username</h2>
       <div class="flex gap-3">
@@ -49,14 +55,17 @@
           Save
         </button>
       </div>
+      <!-- success message that fades in and out after saving -->
       <transition name="fade">
         <p v-if="savedMessage" class="mt-2 text-sm text-green-600 dark:text-green-400">{{ savedMessage }}</p>
       </transition>
     </div>
 
+    <!-- dark/light theme toggle buttons -->
     <div class="mt-8">
       <h2 class="text-lg font-semibold mb-3">Theme Preference</h2>
       <div class="grid grid-cols-2 gap-3">
+        <!-- active button gets brand color, inactive gets gray -->
         <button
           @click="setTheme('dark')"
           class="py-3 rounded-xl border-2 transition"
@@ -84,27 +93,27 @@ export default {
   data() {
     return {
       username: 'user123',
-      profileImage: '',
+      profileImage: '', //blob:// url of the avatar, empty if none saved
       theme: 'light',
       uploading: false,
-      uploadProgress: 0,
-      imgReady: false,
+      uploadProgress: 0, //0-100, drives the progress bar
+      imgReady: false, //triggers blur-up once image finishes loading
       savedMessage: ''
     }
   },
   async mounted() {
     await this.loadProfile()
-    this.theme = localStorage.getItem('spojedy-theme') || 'light'
+    this.theme = localStorage.getItem('spojedy-theme') || 'light' //read saved theme on load
   },
   beforeUnmount() {
-    // Free the object URL we created so it doesn't leak memory.
+    //free the blob url from memory when leaving the page
     if (this.profileImage && this.profileImage.startsWith('blob:')) {
       URL.revokeObjectURL(this.profileImage)
     }
   },
   methods: {
     async loadProfile() {
-      // Username is a plain string — fine for localStorage.
+      //username is plain text so it comes from localStorage
       const raw = localStorage.getItem('spojedy-profile')
       if (raw) {
         try {
@@ -114,7 +123,7 @@ export default {
           // noop
         }
       }
-      // Profile image is a Blob — load from IndexedDB and expose as object URL.
+      //avatar is binary so it comes from IndexedDB, then converted to a displayable url
       try {
         const blob = await loadBlob('avatar')
         if (blob) {
@@ -125,11 +134,11 @@ export default {
       }
     },
     saveProfile() {
-      // Only the username goes to localStorage; the Blob lives in IndexedDB.
+      //only save username here, the avatar blob is handled separately in applyBlob
       localStorage.setItem('spojedy-profile', JSON.stringify({ username: this.username }))
-      window.dispatchEvent(new Event('spojedy-profile-updated'))
+      window.dispatchEvent(new Event('spojedy-profile-updated')) //tell NavBar to refresh the avatar
       this.savedMessage = 'Profile saved!'
-      setTimeout(() => { this.savedMessage = '' }, 2000)
+      setTimeout(() => { this.savedMessage = '' }, 2000) //hide message after 2 seconds
     },
     onFileChange(e) {
       const file = e.target.files && e.target.files[0]
@@ -138,7 +147,7 @@ export default {
       this.uploadProgress = 0
       this.imgReady = false
 
-      // First half of progress: reading the source file.
+      //read the file as a data url — progress fills the first 50%
       const reader = new FileReader()
       reader.onprogress = (ev) => {
         if (ev.lengthComputable) {
@@ -146,12 +155,12 @@ export default {
         }
       }
       reader.onload = (ev) => {
-        this.compressImage(ev.target.result)
+        this.compressImage(ev.target.result) //once read, compress it
       }
       reader.readAsDataURL(file)
     },
     compressImage(dataUrl) {
-      // Resize via canvas, then export as a JPEG Blob under 1 MB.
+      //draw the image on a canvas, resize it to max 512px, then export as jpeg
       const img = new Image()
       img.onload = () => {
         const MAX = 512
@@ -172,7 +181,7 @@ export default {
         const ctx = canvas.getContext('2d')
         ctx.drawImage(img, 0, 0, width, height)
 
-        // First pass at 0.85 quality; if still over 1 MB, re-encode at 0.6.
+        //first try quality 0.85, if still over 1mb then re-encode at 0.6
         canvas.toBlob((blob) => {
           if (!blob) {
             this.uploading = false
@@ -194,20 +203,18 @@ export default {
         this.uploading = false
         return
       }
-      // Persist the actual Blob to IndexedDB — this is the "stored as blob" part.
+      //save the compressed blob to IndexedDB
       try {
         await saveBlob('avatar', blob)
       } catch (e) {
         console.error('Failed to save avatar blob', e)
       }
-      // Release the previous object URL before swapping in a new one.
+      //free old blob url before creating a new one
       if (this.profileImage && this.profileImage.startsWith('blob:')) {
         URL.revokeObjectURL(this.profileImage)
       }
-      // Second half of progress: applying the result.
       this.uploadProgress = 100
-      this.profileImage = URL.createObjectURL(blob)
-      // Persist username alongside; tell other components to reload the avatar.
+      this.profileImage = URL.createObjectURL(blob) //display the new image
       localStorage.setItem('spojedy-profile', JSON.stringify({ username: this.username }))
       window.dispatchEvent(new Event('spojedy-profile-updated'))
       setTimeout(() => {
@@ -217,12 +224,13 @@ export default {
     },
     setTheme(t) {
       this.theme = t
+      //toggle the 'dark' class on <html> — tailwind uses this to switch themes
       if (t === 'dark') {
         document.documentElement.classList.add('dark')
       } else {
         document.documentElement.classList.remove('dark')
       }
-      localStorage.setItem('spojedy-theme', t)
+      localStorage.setItem('spojedy-theme', t) //remember the choice across refreshes
     }
   }
 }
